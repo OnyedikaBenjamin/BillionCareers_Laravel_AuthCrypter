@@ -1,0 +1,41 @@
+<?php
+namespace App\Models;
+class Listing{
+        public static function all(){
+          return [
+                    [
+                        'id' => 1,
+                        'title' => 'Okeoma',
+                        'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consequatur iste neque
+                         quod aut reprehenderit aspernatur, sed obcaecati magni ducimus! Facilis iure quia voluptates doloribus
+                         similique autem nam nostrum at!
+                    '],
+                    [
+                        'id' => 2,
+                        'title' => 'Chinelo',
+                        'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Eius consequatur iste neque quod aut reprehenderit aspernatur, sed obcaecati
+                         magni ducimus! Facilis iure quia voluptates doloribus similique autem nam nostrum at!
+                        '
+                    ],
+                    [
+                        'id' => 3,
+                        'title' => 'Benjamin',
+                        'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Eius consequatur iste neque quod aut reprehenderit aspernatur, sed obcaecati
+                         magni ducimus! Facilis iure quia voluptates doloribus similique autem nam nostrum at!
+                        '
+                    ]
+                    ];
+        }  
+        public static function find_a_listing($id){
+          $listings = self::all();
+
+          foreach ($listings as $key => $listing) {
+                    if ($listing['id']==$id){
+                       return $listing;    
+                    }
+          }
+        }   
+}
+?>
