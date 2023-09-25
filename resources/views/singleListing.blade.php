@@ -91,7 +91,7 @@
     <main>
 
         <!-- Hero Area Start-->
-        {{-- <div class="slider-area ">
+        <div class="slider-area ">
         <div class="single-slider section-overly slider-height2 d-flex align-items-center" data-background="assets/img/hero/about.jpg">
             <div class="container">
                 <div class="row">
@@ -103,7 +103,7 @@
                 </div>
             </div>
         </div>
-        </div> --}}
+        </div>
         <!-- Hero Area End -->
         <!-- job post company Start -->
         <div class="job-post-company pt-120 pb-120">
@@ -114,14 +114,17 @@
                         <!-- job single -->
                         <div class="single-job-items mb-50">
                             <div class="job-items">
+                                <div class="company-img company-img-details">
+                                    <a href="#"><img src="assets/img/icon/job-list1.png" alt=""></a>
+                                </div>
                                 <div class="job-tittle">
                                     <a href="#">
-                                        <h4>{{$singleListing['role']}}</h4>
+                                        <h4>{{$singleListing['title']}}</h4>
                                     </a>
                                     <ul>
                                         <li>{{$singleListing->company}}</li>
                                         <li><i class="fas fa-map-marker-alt"></i>{{$singleListing->location}}</li>
-                                        <li>{{$singleListing->salary_range}}</li>
+                                        <li>$3500 - $4000</li>
                                     </ul>
                                 </div>
                             </div>
@@ -163,14 +166,7 @@
                                </ul>
                             </div>
                         </div>
-                        <a href="/listings/{{$singleListing->id}}/edit" class="btn">Edit Job</a>
-                        <div>.</div>
-                        <form method="POST" action="/listings/{{$singleListing->id}}">
-                            @csrf
-                            @method('DELETE')
-                            <input type="submit" class="btn" value="Delete Job">
-                        </form>
-                        
+
                     </div>
                     <!-- Right Content -->
                     <div class="col-xl-4 col-lg-4">
@@ -181,11 +177,11 @@
                            </div>
                           <ul>
                               <li>Posted date : <span>12 Aug 2019</span></li>
-                              <li>Location : <span>{{$singleListing->location}}</span></li>
-                              <li>Vacancy : <span>{{$singleListing->no_vacancy}}</span></li>
-                              <li>Job nature : <span>{{$singleListing->job_type}}</span></li>
-                              <li>Salary :  <span>{{$singleListing->yearly_salary}}</span></li>
-                              <li>Application expires : <span>12 Sep 2020</span></li>
+                              <li>Location : <span>New York</span></li>
+                              <li>Vacancy : <span>02</span></li>
+                              <li>Job nature : <span>Full time</span></li>
+                              <li>Salary :  <span>$7,800 yearly</span></li>
+                              <li>Application date : <span>12 Sep 2020</span></li>
                           </ul>
                          <div class="apply-btn2">
                             <a href="#" class="btn">Apply Now</a>
@@ -196,11 +192,12 @@
                            <div class="small-section-tittle">
                                <h4>Company Information</h4>
                            </div>
-                              <span>{{$singleListing->company}}</span>
-                              <p>{{$singleListing->company_description}}</p>
+                              <span>Colorlib</span>
+                              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                             <ul>
-                                <li>Web : <span>{{$singleListing->website}}</span></li>
-                                <li>Email: <span>{{$singleListing->email}}</span></li>
+                                <li>Name: <span>Colorlib </span></li>
+                                <li>Web : <span> colorlib.com</span></li>
+                                <li>Email: <span>carrier.colorlib@gmail.com</span></li>
                             </ul>
                        </div>
                     </div>
@@ -214,39 +211,39 @@
 
 	<!-- JS here -->
 		<!-- All JS Custom Plugins Link Here here -->
-        <script src="{{ asset('assets/js/vendor/modernizr-3.5.0.min.js')}}"></script>
+        <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
 		<!-- Jquery, Popper, Bootstrap -->
-        <script src="{{ asset('assets/js/vendor/jquery-1.12.4.min.js')}}"></script>
-        <script src="{{ asset('assets/js/popper.min.js')}}"></script>
-        <script src="{{ asset('assets/js/bootstrap.min.js')}}"></script>
+		<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="./assets/js/popper.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
 	    <!-- Jquery Mobile Menu -->
-        <script src="{{ asset('assets/js/jquery.slicknav.min.js')}}"></script>
+        <script src="./assets/js/jquery.slicknav.min.js"></script>
 
 		<!-- Jquery Slick , Owl-Carousel Plugins -->
-        <script src="{{ asset('assets/js/owl.carousel.min.js')}}"></script>
-        <script src="{{ asset('assets/js/slick.min.js')}}"></script>
-        <script src="{{ asset('assets/js/price_rangs.js')}}"></script>
+        <script src="./assets/js/owl.carousel.min.js"></script>
+        <script src="./assets/js/slick.min.js"></script>
+        <script src="./assets/js/price_rangs.js"></script>
         
 		<!-- One Page, Animated-HeadLin -->
-        <script src="{{ asset('assets/js/wow.min.js')}}"></script>
-        <script src="{{ asset('assets/js/animated.headline.js')}}"></script>
-        <script src="{{ asset('assets/js/jquery.magnific-popup.js')}}"></script>
+        <script src="./assets/js/wow.min.js"></script>
+		<script src="./assets/js/animated.headline.js"></script>
+        <script src="./assets/js/jquery.magnific-popup.js"></script>
 
 		<!-- Scrollup, nice-select, sticky -->
-        <script src="{{ asset('assets/js/jquery.scrollUp.min.js')}}"></script>
-        <script src="{{ asset('assets/js/jquery.nice-select.min.js')}}"></script>
-        <script src="{{ asset('assets/js/jquery.sticky.js')}}"></script>
+        <script src="./assets/js/jquery.scrollUp.min.js"></script>
+        <script src="./assets/js/jquery.nice-select.min.js"></script>
+		<script src="./assets/js/jquery.sticky.js"></script>
         
         <!-- contact js -->
-        <script src="{{ asset('assets/js/contact.js')}}"></script>
-        <script src="{{ asset('assets/js/jquery.form.js')}}"></script>
-        <script src="{{ asset('assets/js/jquery.validate.min.js')}}"></script>
-        <script src="{{ asset('assets/js/mail-script.js')}}"></script>
-        <script src="{{ asset('assets/js/jquery.ajaxchimp.min.js')}}"></script>
+        <script src="./assets/js/contact.js"></script>
+        <script src="./assets/js/jquery.form.js"></script>
+        <script src="./assets/js/jquery.validate.min.js"></script>
+        <script src="./assets/js/mail-script.js"></script>
+        <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
         
 		<!-- Jquery Plugins, main Jquery -->	
-        <script src="{{ asset('assets/js/plugins.js')}}"></script>
-        <script src="{{ asset('assets/js/main.js')}}"></script>
+        <script src="./assets/js/plugins.js"></script>
+        <script src="./assets/js/main.js"></script>
     </body>
     
 </html>
