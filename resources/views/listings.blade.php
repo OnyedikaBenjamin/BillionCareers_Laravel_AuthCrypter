@@ -82,8 +82,8 @@
                                 {{-- </div> --}}
                                 @else
                                 <div class="header-btn d-none f-right d-lg-block">
-                                    <a href="/register" class="btn head-btn1">Register</a>
-                                    <a href="/login" class="btn head-btn2">Login</a>
+                                    <a href="/users/register" class="btn head-btn1">Register</a>
+                                    <a href="/users/login" class="btn head-btn2">Login</a>
                                 </div>
                                 @endauth
                             </div>

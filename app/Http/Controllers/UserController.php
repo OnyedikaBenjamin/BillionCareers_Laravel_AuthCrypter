@@ -51,7 +51,7 @@ class UserController extends Controller
             $request->session()->regenerate();
             return redirect('/');
         }
-        return back()->withErrors(['email' => 'Invalid Credentials'])->onlyInput();
+        return back()->withErrors(['email' => 'Invalid Credentials'])->onlyInput('email');
     }
 }
 
