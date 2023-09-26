@@ -173,6 +173,9 @@
               </div>
 
             </form>
+            {{-- FORM ENDS --}}
+
+            
           </div>
         </div>
       </div>
