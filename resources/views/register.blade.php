@@ -123,34 +123,46 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 mb-5">
-            <h2 class="mb-4">Create an account to post jobs</h2>
+            <h2 class="mb-4">Register</h2>
 
 
-
+      {{-- FORM STARTS --}}
             <form action="#" class="p-4 border rounded">
               <div class="row form-group">
                 <div class="col-md-12 mb-3 mb-md-0">
                   <label class="text-black" for="fname">Name</label>
-                  <input type="text" id="fname" class="form-control" >
+                  <input type="text" name="name" id="fname" class="form-control" >
+                  @error('name')
+                  <p class="text-red-500">{{$message}}</p>
+                  @enderror
                 </div>
               </div>
               <div class="row form-group">
                 <div class="col-md-12 mb-3 mb-md-0">
                   <label class="text-black" for="fname">Email</label>
-                  <input type="text" id="fname" class="form-control" >
+                  <input type="text" name="email" id="fname" class="form-control" >
                 </div>
+                @error('email')
+                <p class="text-red-500">{{$message}}</p>
+                @enderror
               </div>
               <div class="row form-group">
                 <div class="col-md-12 mb-3 mb-md-0">
                   <label class="text-black" for="fname">Password</label>
-                  <input type="password" id="fname" class="form-control">
+                  <input type="password" name="password" id="fname" class="form-control">
+                  @error('password')
+                  <p class="text-red-500">{{$message}}</p>
+                  @enderror
                 </div>
               </div>
               <div class="row form-group mb-4">
                 <div class="col-md-12 mb-3 mb-md-0">
                   <label class="text-black" for="fname">Confirm Password</label>
-                  <input type="password" id="fname" class="form-control" placeholder="Re-type Password">
+                  <input type="password" name="password_confirmation" id="fname" class="form-control" placeholder="Re-type Password">
                 </div>
+                @error('password_confirmation')
+                <p class="text-red-500">{{$message}}</p>
+                @enderror
               </div>
 
               <div class="row form-group">
