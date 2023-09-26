@@ -68,7 +68,7 @@
                 <a href="job-listings.html" class="active">Job Listings</a>
                 <ul class="dropdown">
                   <li><a href="job-single.html">Job Single</a></li>
-                  <li><a href="post-job.html" class="active">Post a Job</a></li>
+                  <li><a href="post-job.html" class="active">Edit Job</a></li>
                 </ul>
               </li>
               <li class="has-children">
@@ -94,7 +94,7 @@
           <div class="right-cta-menu text-right d-flex aligin-items-center col-6">
             <div class="ml-auto">
               <a href="post-job.html" class="btn btn-outline-white border-width-2 d-none d-lg-inline-block"><span
-                  class="mr-2 icon-add"></span>Post a Job</a>
+                  class="mr-2 icon-add"></span>Edit Job</a>
               <a href="login.html" class="btn btn-primary border-width-2 d-none d-lg-inline-block"><span
                   class="mr-2 icon-lock_outline"></span>Log In</a>
             </div>
