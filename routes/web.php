@@ -28,13 +28,13 @@ Route::delete('listings/{listing}', [ListingController::class, 'deleteListing'])
 
 // USER ROUTES
 
-Route::get('users/register', [UserController::class, 'register']);
-Route::post('users/register', [UserController::class, 'createUser']);
+Route::get('users/register', [UserController::class, 'register'])->middleware('auth');
+Route::post('users/register', [UserController::class, 'createUser'])->middleware('auth');
 
 
-Route::post('/logout', [UserController::class, 'logout']);
+Route::post('/logout', [UserController::class, 'logout'])->middleware('auth');
 
-Route::get('/users/login', [UserController::class, 'login']);
+Route::get('/users/login', [UserController::class, 'login'])->middleware('auth');
 Route::post('/users/authenticate', [UserController::class, 'authenticate_user']);
 
 // Route::get('/giging', function(){
