@@ -157,7 +157,8 @@
 
               <div class="form-group">
                 <label for="job-title">Job Title</label>
-                <input type="text" name="role" class="form-control" id="job-title" placeholder="Software Engineer">
+                <input type="text" name="role" class="form-control" id="job-title" placeholder="Software Engineer" 
+                value="{{old('role')}}">
                 @error('role')
                 <p class="text-red-500">{{$message}}</p>
                 @enderror
@@ -165,7 +166,8 @@
 
               <div class="form-group">
                 <label for="job-location">Location</label>
-                <input type="text" name="location" class="form-control" id="job-location" placeholder="e.g. New York">
+                <input type="text" name="location" class="form-control" id="job-location" placeholder="e.g. New York" 
+                value="{{old('location')}}">
                 @error('location')
                 <p class="text-red-500">{{$message}}</p>
                 @enderror
@@ -174,7 +176,8 @@
               <div class="form-group">
                 <label for="job-type">Job Type</label>
                 <select class="selectpicker border rounded" name="job_type" id="job-type" data-style="btn-black"
-                  data-width="100%" data-live-search="true" title="Select Job Type">
+                  data-width="100%" data-live-search="true" title="Select Job Type" 
+                  value="{{old('job_type')}}">
                   <option>Full-Time</option>
                   <option>Hybrid</option>
                   <option>Remote</option>
@@ -187,7 +190,8 @@
               <div class="form-group">
                 <label for="job-description">Job Description</label>
                 <textarea name="description" class="form-control" id="job-description" rows="5"
-                  placeholder="Write Job Description!"></textarea>
+                  placeholder="Write Job Description!" 
+                  value="{{old('description')}}"></textarea>
                   @error('description')
                 <p class="text-red-500">{{$message}}</p>
                 @enderror
@@ -195,7 +199,8 @@
 
               <div class="form-group">
                 <label for="job-title">Salary Range</label>
-                <input type="text" name="salary_range" class="form-control" id="job-title" placeholder="$2500 - $4000">
+                <input type="text" name="salary_range" class="form-control" id="job-title" placeholder="$2500 - $4000" 
+                value="{{old('salary_range')}}">
                 @error('salary_range')
                 <p class="text-red-500">{{$message}}</p>
                 @enderror
@@ -203,7 +208,8 @@
 
               <div class="form-group">
                 <label for="job-title">Salary Per-Year</label>
-                <input type="text" name="yearly_salary" class="form-control" id="job-title" placeholder="$78,000">
+                <input type="text" name="yearly_salary" class="form-control" id="job-title" placeholder="$78,000"
+                value="{{old('yearly_salary')}}">
                 @error('yearly_salary')
                 <p class="text-red-500">{{$message}}</p>
                 @enderror
@@ -211,7 +217,8 @@
 
               <div class="form-group">
                 <label for="job-title">No of vacancy</label>
-                <input type="number" name="no_vacancy" class="form-control" id="job-title" placeholder="1">
+                <input type="number" name="no_vacancy" class="form-control" id="job-title" placeholder="1"
+                value="{{old('no_vacancy')}}">
                 @error('no_vacancy')
                 <p class="text-red-500">{{$message}}</p>
                 @enderror
@@ -221,7 +228,8 @@
 
               <div class="form-group">
                 <label for="company-name">Company Name</label>
-                <input type="text" name="company" class="form-control" id="company-name" placeholder="e.g. Billion PLC">
+                <input type="text" name="company" class="form-control" id="company-name" placeholder="e.g. Billion PLC"
+                value="{{old('company')}}">
                 @error('company')
                 <p class="text-red-500">{{$message}}</p>
                 @enderror
@@ -229,7 +237,8 @@
 
               <div class="form-group">
                 <label for="email">Email</label>
-                <input type="text" name="email" class="form-control" id="email" placeholder="you@yourdomain.com">
+                <input type="text" name="email" class="form-control" id="email" placeholder="you@yourdomain.com"
+                value="{{old('email')}}">
                 @error('email')
                 <p class="text-red-500">{{$message}}</p>
                 @enderror
@@ -238,12 +247,13 @@
               <div class="form-group">
                 <label for="company-description">Company Description (Optional)</label>
                 <textarea name="company_description" class="form-control" id="company-description" rows="5"
-                  placeholder="Description"></textarea>
+                  placeholder="Description"  value="{{old('company_description')}}"></textarea>
               </div>
 
               <div class="form-group">
                 <label for="company-website">Website (Optional)</label>
-                <input type="text" name="website" class="form-control" id="company-website" placeholder="https://">
+                <input type="text" name="website" class="form-control" id="company-website" placeholder="https://"
+                value="{{old('website')}}">
               </div>
 
               <div class="form-group">
