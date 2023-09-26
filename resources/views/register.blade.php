@@ -127,7 +127,7 @@
 
 
       {{-- FORM STARTS --}}
-            <form action="/register" method="POST" class="p-4 border rounded">
+            <form action="/users/register" method="POST" class="p-4 border rounded">
               @csrf
               <div class="row form-group">
                 <div class="col-md-12 mb-3 mb-md-0">

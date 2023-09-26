@@ -40,5 +40,13 @@ class UserController extends Controller
     public function login(){
         return view('login');
     }
+    public function authenticate_user(Request $request){
+        $formfields = $request->validate([
+            'email' => ['required', 'email'],
+            'password'=> 'required'
+        ]
+        );
+        return redirect('/');
+    }
 }
 

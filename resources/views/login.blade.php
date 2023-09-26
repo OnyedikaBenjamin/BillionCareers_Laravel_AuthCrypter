@@ -126,7 +126,7 @@
             <h2 class="mb-4">Login</h2>
 
 
-            <form action="/login" method="POST" p-4 border rounded>
+            <form action="/users/login" method="POST" p-4 border rounded>
                     @csrf
 
                     <div class="row form-group">

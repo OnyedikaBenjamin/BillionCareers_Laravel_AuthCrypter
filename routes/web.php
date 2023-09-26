@@ -37,12 +37,13 @@ Route::delete('listings/{listing}', [ListingController::class, 'deleteListing'])
 
 // USER ROUTES
 
-Route::get('/register', [UserController::class, 'register']);
-Route::post('/register', [UserController::class, 'createUser']);
+Route::get('users/register', [UserController::class, 'register']);
+Route::post('users/register', [UserController::class, 'createUser']);
 
 
 Route::post('/logout', [UserController::class, 'logout']);
-Route::get('/login', [UserController::class, 'login']);
+Route::get('/users/login', [UserController::class, 'login']);
+Route::post('/users/authenticate', [UserController::class, 'authenticate_user']);
 
 // Route::get('/giging', function(){
 //     return response('<h1>Omo today na giging oo</h1>');
