@@ -12,6 +12,13 @@ class UserController extends Controller
         return view('register');
     }
 
-//     public function createUser(User $user){
-//     }
+    public function createUser(Request $request){
+        $formfields = $request->validate([
+            'name' => ['required', 'min:3'],
+            'email' => ['required', 'email'],
+            'password'=> ['required, confirmed, min:6'],
+        ]
+        );
+        $formfields['password'] = bcrypt($formfields['password']);
+    }
 }
