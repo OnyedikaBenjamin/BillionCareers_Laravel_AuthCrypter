@@ -42,7 +42,7 @@ Route::post('/register', [UserController::class, 'createUser']);
 
 
 Route::post('/logout', [UserController::class, 'logout']);
-Route::post('/login', [UserController::class, 'login']);
+Route::get('/login', [UserController::class, 'login']);
 
 // Route::get('/giging', function(){
 //     return response('<h1>Omo today na giging oo</h1>');
