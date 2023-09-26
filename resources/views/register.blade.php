@@ -141,7 +141,7 @@
               <div class="row form-group">
                 <div class="col-md-12 mb-3 mb-md-0">
                   <label class="text-black" for="fname">Email</label>
-                  <input type="text" name="email" id="fname" class="form-control" {{old('email')}}>
+                  <input type="text" name="email" id="fname" class="form-control" value="{{old('email')}}">
                 </div>
                 @error('email')
                 <p class="text-red-500">{{$message}}</p>
@@ -175,7 +175,7 @@
             </form>
             {{-- FORM ENDS --}}
 
-            
+
           </div>
         </div>
       </div>
