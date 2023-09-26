@@ -74,7 +74,13 @@
                                 <!-- Header-btn -->
                                 @auth
                                 <div class="header-btn d-none f-right d-lg-block">
-                                    <h2>Welcome {{auth()->user()->name}}</h2>
+                                    <h4 style="color: rgb(0, 110, 255)">{{auth()->user()->name}}</h4>
+                                    <form class="inline" method="POST" action="/logout">
+                                        @csrf
+                                        <button type="submit">
+                                          <i class="fa-solid fa-door-closed"></i> Logout
+                                        </button>
+                                      </form>
                                 </div>
                                 @else
                                 <div class="header-btn d-none f-right d-lg-block">
