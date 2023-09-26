@@ -37,8 +37,8 @@ class UserController extends Controller
         return redirect('/');
     }
 
-    public function login(Request $request){
-        auth()->login($user);
+    public function login(){
+        return view('login');
     }
 }
 
