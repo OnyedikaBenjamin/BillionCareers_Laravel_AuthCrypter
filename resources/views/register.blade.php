@@ -124,8 +124,16 @@
         <div class="row">
           <div class="col-lg-6 mb-5">
             <h2 class="mb-4">Sign Up To JobBoard</h2>
-            <form action="#" class="p-4 border rounded">
 
+
+
+            <form action="#" class="p-4 border rounded">
+              <div class="row form-group">
+                <div class="col-md-12 mb-3 mb-md-0">
+                  <label class="text-black" for="fname">Name</label>
+                  <input type="text" id="fname" class="form-control" placeholder="Email address">
+                </div>
+              </div>
               <div class="row form-group">
                 <div class="col-md-12 mb-3 mb-md-0">
                   <label class="text-black" for="fname">Email</label>
@@ -140,7 +148,7 @@
               </div>
               <div class="row form-group mb-4">
                 <div class="col-md-12 mb-3 mb-md-0">
-                  <label class="text-black" for="fname">Re-Type Password</label>
+                  <label class="text-black" for="fname">Confirm Password</label>
                   <input type="password" id="fname" class="form-control" placeholder="Re-type Password">
                 </div>
               </div>
