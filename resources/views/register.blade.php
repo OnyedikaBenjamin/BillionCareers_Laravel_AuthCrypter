@@ -59,7 +59,7 @@
     <header class="site-navbar mt-3">
       <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="site-logo col-6"><a href="index.html">JobBoard</a></div>
+          <div class="site-logo col-6"><a href="index.html">BILLION-JOBS</a></div>
 
           <nav class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
@@ -123,7 +123,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 mb-5">
-            <h2 class="mb-4">Create an account To Post Jobs</h2>
+            <h2 class="mb-4">Create an account to post jobs</h2>
 
 
 
