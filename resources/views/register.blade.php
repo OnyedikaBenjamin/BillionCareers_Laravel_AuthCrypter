@@ -123,7 +123,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 mb-5">
-            <h2 class="mb-4">Sign Up To JobBoard</h2>
+            <h2 class="mb-4">Create an account To Post Jobs</h2>
 
 
 
@@ -131,13 +131,13 @@
               <div class="row form-group">
                 <div class="col-md-12 mb-3 mb-md-0">
                   <label class="text-black" for="fname">Name</label>
-                  <input type="text" id="fname" class="form-control" placeholder="Email address">
+                  <input type="text" id="fname" class="form-control" >
                 </div>
               </div>
               <div class="row form-group">
                 <div class="col-md-12 mb-3 mb-md-0">
                   <label class="text-black" for="fname">Email</label>
-                  <input type="text" id="fname" class="form-control" placeholder="Email address">
+                  <input type="text" id="fname" class="form-control" >
                 </div>
               </div>
               <div class="row form-group">
