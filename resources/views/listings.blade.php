@@ -73,16 +73,13 @@
                                 </div>
                                 <!-- Header-btn -->
                                 @auth
-                                <div class="header-btn d-none f-right d-lg-block">
+                                {{-- <div class="header-btn d-none f-right d-lg-block"> --}}
                                     <h4 style="color: rgb(0, 110, 255)">{{auth()->user()->name}}</h4>
                                     <form class="inline" method="POST" action="/logout">
                                         @csrf
                                         <a href="/login" class="btn head-btn2" type="submit">Login</a>
-                                        <button type="submit">
-                                          <i class="fa-solid fa-door-closed"></i> Logout
-                                        </button>
                                       </form>
-                                </div>
+                                {{-- </div> --}}
                                 @else
                                 <div class="header-btn d-none f-right d-lg-block">
                                     <a href="/register" class="btn head-btn1">Register</a>
