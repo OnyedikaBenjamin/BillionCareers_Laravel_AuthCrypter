@@ -24,16 +24,13 @@ class UserController extends Controller
 
         $user = User::create($formfields);
         auth()->login($user);
-
         return redirect('/')->with('message', 'Account created successfully');
     }
 
     public function logout(Request $request){
         auth()->logout();
-
         $request->session()->invalidate();
         $request->session()->regenerateToken();
-        
         return redirect('/');
     }
 
