@@ -143,7 +143,7 @@
               <div class="row form-group">
                 <div class="col-md-12 mb-3 mb-md-0">
                   <label class="text-black" for="fname">Password</label>
-                  <input type="password" id="fname" class="form-control" placeholder="Password">
+                  <input type="password" id="fname" class="form-control">
                 </div>
               </div>
               <div class="row form-group mb-4">
