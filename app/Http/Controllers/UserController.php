@@ -46,7 +46,12 @@ class UserController extends Controller
             'password'=> 'required'
         ]
         );
-        return redirect('/');
+        
+        if(auth()->attempt($formfields)) {
+            $request->session()->regenerate();
+            return redirect('/');
+        }
+        return back()->withErrors(['email' => 'Invalid Credentials'])->onlyInput();
     }
 }
 

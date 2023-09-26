@@ -126,7 +126,7 @@
             <h2 class="mb-4">Login</h2>
 
 
-            <form action="/users/login" method="POST" p-4 border rounded>
+            <form action="/users/authenticate" method="POST" p-4 border rounded>
                     @csrf
 
                     <div class="row form-group">
@@ -134,17 +134,20 @@
                         <label class="text-black" for="fname">Email</label>
                         <input type="text" name="email" id="fname" class="form-control" placeholder="Email address"
                         value="{{old('email')}}">
-                        @error('email')
-                        <p class="text-red-500">{{$message}}</p>
-                        @enderror
                       </div>
                     </div>
+                    @error('email')
+                      <p class="text-red-500">{{$message}}</p>
+                      @enderror
                     <div class="row form-group mb-4">
                       <div class="col-md-12 mb-3 mb-md-0">
                         <label class="text-black" for="fname">Password</label>
-                        <input type="password" id="fname" class="form-control" placeholder="Password">
+                        <input type="password" name="password" id="fname" class="form-control" placeholder="Password">
                       </div>
                     </div>
+                    @error('password')
+                      <p class="text-red-500">{{$message}}</p>
+                      @enderror
       
                     <div class="row form-group">
                       <div class="col-md-12">
