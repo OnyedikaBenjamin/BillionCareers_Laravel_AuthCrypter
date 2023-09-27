@@ -47,7 +47,7 @@
                         <div class="col-lg-3 col-md-2">
                             <!-- Logo -->
                             <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                <a href="index.html"><img src="public\logos\hUAKlwJsiKGGgC78WUwXRUMmpUH78xZEJbSDtt4A.png" alt=""></a>
                             </div>
                         </div>
                         <div class="col-lg-9 col-md-9">
