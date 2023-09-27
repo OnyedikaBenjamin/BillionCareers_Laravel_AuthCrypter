@@ -172,7 +172,7 @@
                         </form>
                         
                     </div>
-                    <!-- Right Content -->
+                  
                     <div class="col-xl-4 col-lg-4">
                         <div class="post-details3  mb-50">
                             <!-- Small Section Tittle -->
