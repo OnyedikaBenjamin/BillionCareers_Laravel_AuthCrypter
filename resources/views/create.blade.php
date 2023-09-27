@@ -191,7 +191,7 @@
                 <label for="job-description">Job Description</label>
                 <textarea name="description" class="form-control" id="job-description" rows="5"
                   placeholder="Write Job Description!" 
-                  value="{{old('description')}}"></textarea>
+                  value="{{old('job-description')}}"></textarea>
                   @error('description')
                 <p class="text-red-500">{{$message}}</p>
                 @enderror
