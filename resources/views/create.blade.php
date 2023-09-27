@@ -217,7 +217,7 @@
 
               <div class="form-group">
                 <label for="job-title">No of vacancy</label>
-                <input type="number" name="no_vacancy" class="form-control" id="job-title" placeholder="1"
+                <input type="number" name="no_vacancy" class="form-control" id="job-title" placeholder="0"
                 value="{{old('no_vacancy')}}">
                 @error('no_vacancy')
                 <p class="text-red-500">{{$message}}</p>
