@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="{{ asset('assets/typicons/vendor.bundle.base.css')}}">
   <link rel="stylesheet" href="{{ asset('assets/typicons/style.css')}}">
 
-  <link rel="shortcut icon" href="{{ asset('assets/vendors/typicons/favicon.png')}}">
+  <link rel="shortcut icon" href="{{ asset('assets/typicons/favicon.png')}}">
 </head>
 <body>
           <div class="row" id="proBanner">
