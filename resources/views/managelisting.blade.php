@@ -520,26 +520,7 @@
                 </div>
               </div>
             </div>
-            
-            {{-- <div class="col-xl-6 grid-margin stretch-card flex-column">
-              <h5 class="mb-2 text-titlecase mb-4">Income statistics</h5>
-              <div class="row h-100">
-                <div class="col-md-12 stretch-card">
-                  <div class="card">
-                    <div class="card-body">
-                      <div class="d-flex justify-content-between align-items-start flex-wrap">
-                        <div>
-                          <p class="mb-3">Monthly Increase</p>
-                          <h3>67842</h3>
-                        </div>
-                        <div id="income-chart-legend" class="d-flex flex-wrap mt-1 mt-md-0"></div>
-                      </div>
-                      <canvas id="income-chart"></canvas>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> --}}
+            <div>I am Benjainj</div>
           </div>
 
           
