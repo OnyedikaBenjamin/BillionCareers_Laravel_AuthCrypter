@@ -490,9 +490,6 @@
           <div class="row">
             <div class="col-xl-6 grid-margin stretch-card flex-column">
                 <h5 class="mb-2 text-titlecase mb-4">Status statistics</h5>
-              {{-- <div class="row">
-                
-              </div> --}}
               <div class="row h-100">
                 <div class="col-md-6 stretch-card grid-margin grid-margin-md-0">
                   <div class="card">
@@ -519,8 +516,8 @@
                   </div>
                 </div>
               </div>
+
             </div>
-            <div>I am Benjainj</div>
           </div>
 
           
