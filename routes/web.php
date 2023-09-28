@@ -8,7 +8,8 @@ use App\Http\Controllers\ListingController;
 use Illuminate\Tests\Integration\Database\EloquentModelDateCastingTest\EloquentModelImmutableDateCastingTest;
 
 //LISTINGS ROUTE
-Route::get('/', [ListingController::class, 'showAllListing']);
+Route::get('/', [ListingController::class, 'go_home']);
+Route::get('/listings', [ListingController::class, 'showAllListing']);
 
 Route::get('/listings/{id}', [ListingController::class, 'showSingleListing']);
 
