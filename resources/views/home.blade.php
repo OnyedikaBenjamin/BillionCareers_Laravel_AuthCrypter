@@ -78,7 +78,7 @@
     
 
     <!-- NAVBAR -->
-    <header class="site-navbar mt-3">
+    {{-- <header class="site-navbar mt-3">
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="site-logo col-6"><a href="index.html">JobBoard</a></div>
@@ -124,7 +124,7 @@
 
         </div>
       </div>
-    </header>
+    </header> --}}
 
     <!-- HOME -->
     <section class="home-section section-hero overlay bg-image" style="background-image: url('assets/typicons/B-Xel.png');" id="home-section">
