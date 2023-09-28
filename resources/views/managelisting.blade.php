@@ -525,7 +525,7 @@
                   </div>
                 </div>
               </div>
-              <div class="row h-100">
+              {{-- <div class="row h-100">
                 <div class="col-md-6 stretch-card grid-margin grid-margin-md-0">
                   <div class="card">
                     <div class="card-body d-flex flex-column justify-content-between">
@@ -556,9 +556,9 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> --}}
             </div>
-            <div class="col-xl-6 grid-margin stretch-card flex-column">
+            {{-- <div class="col-xl-6 grid-margin stretch-card flex-column">
               <h5 class="mb-2 text-titlecase mb-4">Income statistics</h5>
               <div class="row h-100">
                 <div class="col-md-12 stretch-card">
@@ -576,7 +576,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> --}}
           </div>
 
           
