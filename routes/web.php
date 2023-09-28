@@ -37,7 +37,7 @@ Route::post('/logout', [UserController::class, 'logout'])->middleware('auth');
 Route::get('/users/login', [UserController::class, 'login'])->middleware('guest');;
 Route::post('/users/authenticate', [UserController::class, 'authenticate_user']);
 
-Route::get('/listings/manage', [ListingController::class, 'createListing'])->middleware('auth');
+Route::get('/manage', [ListingController::class, 'manageListing']);
 
 
 
