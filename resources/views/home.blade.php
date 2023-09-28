@@ -8,21 +8,9 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="Free-Template.co" />
-    {{-- <link rel="shortcut icon" href="ftco-32x32.png">
-    
-    <link rel="stylesheet" href="css/custom-bs.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="css/bootstrap-select.min.css">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
-    <link rel="stylesheet" href="fonts/line-icons/style.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-
-    <!-- MAIN CSS -->
-    <link rel="stylesheet" href="css/style.css">     --}}
+ 
     <link rel="shortcut icon" href="{{ asset('assets/typicons/B-Xel.png')}}">
-{{-- 
-    <link rel="shortcut icon" href="ftco-32x32.png"> --}}
+
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
   
