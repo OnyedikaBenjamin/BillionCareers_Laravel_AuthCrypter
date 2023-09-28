@@ -8,9 +8,9 @@
   <title>PolluxUI Admin</title>
   <!-- base:css -->
   
-  <link rel="stylesheet" href="{{ asset('assets/vendors/typicons/typicons.css')}}">
-  <link rel="stylesheet" href="{{ asset('assets/vendors/typicons/vendor.bundle.base.css')}}">
-  <link rel="stylesheet" href="{{ asset('assets/vendors/typicons/style.css')}}">
+  <link rel="stylesheet" href="{{ asset('assets/typicons/typicons.css')}}">
+  <link rel="stylesheet" href="{{ asset('assets/typicons/vendor.bundle.base.css')}}">
+  <link rel="stylesheet" href="{{ asset('assets/typicons/style.css')}}">
 
   <link rel="shortcut icon" href="{{ asset('assets/vendors/typicons/favicon.png')}}">
 </head>
