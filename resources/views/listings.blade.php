@@ -23,6 +23,16 @@
     <link rel="stylesheet" href="{{ asset('assets/css/slick.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/nice-select.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+
+    <link rel="stylesheet" href="{{ asset('assets/css-post/custom-bs.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css-post/jquery.fancybox.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css-post/bootstrap-select.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css-post/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css-post/animate.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css-post/quill.snow.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css-post/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/fonts/icomoon/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/fonts/line-icons/style.css')}}">
 </head>
 
 <body>
@@ -37,6 +47,7 @@
             </div>
         </div>
     </div>
+    
     <!-- Preloader End -->
     {{-- <header>
         <!-- Header Start -->
