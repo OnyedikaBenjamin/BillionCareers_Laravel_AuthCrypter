@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('listings', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->constrained()->onDelete('cascade');  // wipe user post filtering by the id when user is deleted.
             $table->string('role');
             $table->string('location');
             $table->string('job_type');

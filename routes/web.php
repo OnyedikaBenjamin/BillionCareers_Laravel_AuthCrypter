@@ -37,6 +37,9 @@ Route::post('/logout', [UserController::class, 'logout'])->middleware('auth');
 Route::get('/users/login', [UserController::class, 'login'])->middleware('guest');;
 Route::post('/users/authenticate', [UserController::class, 'authenticate_user']);
 
+Route::get('listings/manage', [UserController::class, 'manageListing'])->middleware('auth');
+
+
 // Route::get('/giging', function(){
 //     return response('<h1>Omo today na giging oo</h1>');
 // });

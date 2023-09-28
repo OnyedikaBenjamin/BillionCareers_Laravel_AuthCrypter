@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class Listing extends Model
 {
@@ -11,6 +12,7 @@ class Listing extends Model
 
     protected $fillable = [
         'role',
+        'user_id',
         'location',
         'job_type',
         'description',
@@ -22,4 +24,8 @@ class Listing extends Model
         'company_description',
         'website',
     ];
+
+    public function user(){
+        return $this->hasOne(User::class, 'user_id');
+    }
 }

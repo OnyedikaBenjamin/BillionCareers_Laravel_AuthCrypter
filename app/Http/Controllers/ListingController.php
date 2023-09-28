@@ -74,6 +74,8 @@ class ListingController extends Controller
             $formFields['logo'] = $request->file('logo')->store('logos', 'public');
         }
 
+        $formFields['user_id'] = auth()->id();  // maps the user creating the post to the post
+
         Listing::create($formFields);
         return redirect('/jobcreated');
     }
@@ -83,6 +85,9 @@ class ListingController extends Controller
     }
 
     public function updateListing(Request $request, Listing $listing){
+        if($listing->user_id != auth()->id()) {   // Make sure logged in user is owner
+            abort(403, 'Unauthorized Action');
+        }
         $formFields = $request->validate([
             'role' => 'required',
             'location' => 'required',
@@ -99,16 +104,20 @@ class ListingController extends Controller
         ]);
 
         if ($request->hasFile('logo')) {
-            $formFields['logo'] = $request->file('logo')->store('logos', 'public');
-        }
-
+            $formFields['logo'] = $request->file('logo')->store('logos', 'public');}
         $listing->update($formFields);
         return redirect('/jobupdated');
     }
 
     public function deleteListing(Listing $listing){
-         $listing->delete();
+        if($listing->user_id != auth()->id()) {   // Make sure logged in user is owner
+            abort(403, 'Unauthorized Action');}
+         $listing->delete();  
          return redirect('/');
+    }
+
+    public function manageListing(){
+        return view('managelisting',  ['listings' => auth()->user()->listings()->get()]);
     }
 
 }
