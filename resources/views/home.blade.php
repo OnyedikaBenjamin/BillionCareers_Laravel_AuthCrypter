@@ -20,9 +20,9 @@
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.css">     --}}
-    <link rel="shortcut icon" href="{{ asset('assets/typicons/B-Xel.png')}}">
-{{-- 
-    <link rel="shortcut icon" href="ftco-32x32.png"> --}}
+    <link rel="shortcut icon" href="{{ asset('assets/typicons/B-X.png')}}">
+
+    <link rel="shortcut icon" href="ftco-32x32.png">
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
   
@@ -81,7 +81,7 @@
     <header class="site-navbar mt-3">
       <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="site-logo col-6"><a href="index.html">JobBoard</a></div>
+          <div class="site-logo col-6"><a href="index.html">Billion-Jobs</a></div>
 
           <nav class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
@@ -127,7 +127,7 @@
     </header>
 
     <!-- HOME -->
-    <section class="home-section section-hero overlay bg-image" style="background-image: url('images/hero_1.jpg');" id="home-section">
+    <section class="home-section section-hero overlay bg-image" style="background-image: url('assets/typicons/interviewer.jpg');" id="home-section">
 
       <div class="container">
         <div class="row align-items-center justify-content-center">
@@ -138,10 +138,10 @@
             </div>
             <form method="post" class="search-jobs-form">
               <div class="row mb-5">
-                {{-- <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
                   <input type="text" class="form-control form-control-lg" placeholder="Job title, Company...">
-                </div> --}}
-                {{-- <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
                   <select class="selectpicker" data-style="btn-white btn-lg" data-width="100%" data-live-search="true" title="Select Region">
                     <option>Anywhere</option>
                     <option>San Francisco</option>
@@ -153,8 +153,8 @@
                     <option>Kansas</option>
                     <option>Mountain View</option>
                   </select>
-                </div> --}}
-                {{-- <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
                   <select class="selectpicker" data-style="btn-white btn-lg" data-width="100%" data-live-search="true" title="Select Job Type">
                     <option>Part Time</option>
                     <option>Full Time</option>
@@ -163,7 +163,7 @@
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
                   <button type="submit" class="btn btn-primary btn-lg btn-block text-white btn-search"><span class="icon-search icon mr-2"></span>Search Job</button>
                 </div>
-              </div> --}}
+              </div>
               <div class="row">
                 <div class="col-md-12 popular-keywords">
                   <h3>Trending Keywords:</h3>
