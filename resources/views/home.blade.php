@@ -27,9 +27,6 @@
     <link rel="stylesheet" href="{{ asset('assets/css/nice-select.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
   
-  
-    <!-- CSS here -->
-  
     <link rel="stylesheet" href="{{ asset('assets/css-post/custom-bs.css')}}">
     <link rel="stylesheet" href="{{ asset('assets/css-post/jquery.fancybox.min.css')}}">
     <link rel="stylesheet" href="{{ asset('assets/css-post/bootstrap-select.min.css')}}">
