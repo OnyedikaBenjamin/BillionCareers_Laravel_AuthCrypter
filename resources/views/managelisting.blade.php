@@ -7,14 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>PolluxUI Admin</title>
   <!-- base:css -->
-  <link rel="stylesheet" href="vendors/typicons/typicons.css">
-  <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
-  <!-- endinject -->
-  <!-- plugin css for this page -->
-  <!-- End plugin css for this page -->
-  <!-- inject:css -->
-  <link rel="stylesheet" href="css/vertical-layout-light/style.css">
-  <!-- endinject -->
+  
+  <link rel="stylesheet" href="{{ asset('assets/vendors/typicons/typicons.css')}}">
+  <link rel="stylesheet" href="{{ asset('assets/vendors/typicons/vendor.bundle.base.css')}}">
+  <link rel="stylesheet" href="{{ asset('assets/vendors/typicons/style.css')}}">
+
   <link rel="shortcut icon" href="images/favicon.png" />
 </head>
 <body>
