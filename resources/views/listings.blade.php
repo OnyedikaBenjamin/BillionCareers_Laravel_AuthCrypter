@@ -71,15 +71,12 @@
                                         </ul>
                                     </nav>
                                 </div>
-                                <!-- Header-btn -->
                                 @auth
-                                {{-- <div class="header-btn d-none f-right d-lg-block"> --}}
                                     <h4 style="color: rgb(0, 110, 255)">{{auth()->user()->name}}</h4>
                                     <form class="inline" method="POST" action="/logout">
                                         @csrf
                                         <button href="/login" class="btn head-btn2" type="submit">Logout</button>
                                       </form>
-                                {{-- </div> --}}
                                 @else
                                 <div class="header-btn d-none f-right d-lg-block">
                                     <a href="/users/register" class="btn head-btn1">Register</a>
@@ -88,7 +85,6 @@
                                 @endauth
                             </div>
                         </div>
-                        <!-- Mobile Menu -->
                         <div class="col-12">
                             <div class="mobile_menu d-block d-lg-none"></div>
                         </div>
@@ -96,7 +92,6 @@
                 </div>
             </div>
         </div>
-        <!-- Header End -->
     </header>
     <main>
 
