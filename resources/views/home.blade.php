@@ -134,7 +134,7 @@
           <div class="col-md-12">
             <div class="mb-5 text-center">
               <h1 class="text-white font-weight-bold">Navigate Your Career Path with Us</h1>
-              <p>Job Discovery Made Easy so fuel your career growth today, unlock pportunities, unleash potential.</p>
+              <p>....job discovery made easy so fuel your career growth today, unlock opportunities, unleash potential.</p>
             </div>
             <form method="post" class="search-jobs-form">
               <div class="row mb-5">
