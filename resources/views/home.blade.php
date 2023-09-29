@@ -84,7 +84,25 @@
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
                   <input type="text" class="form-control form-control-lg" placeholder="Job title, Company...">
                 </div>
+
+
+
+
+
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                  <div class="dropdown bootstrap-select dropup" style="width: 100%;"><select class="selectpicker" data-style="btn-white btn-lg" data-width="100%" data-live-search="true" title="Select Region" tabindex="-98"><option class="bs-title-option" value=""></option>
+                    <option>Anywhere</option>
+                    <option>San Francisco</option>
+                    <option>Palo Alto</option>
+                    <option>New York</option>
+                    <option>Manhattan</option>
+                    <option>Ontario</option>
+                    <option>Toronto</option>
+                    <option>Kansas</option>
+                    <option>Mountain View</option>
+                  </select><button type="button" class="btn dropdown-toggle btn-white btn-lg bs-placeholder" data-toggle="dropdown" role="button" title="Select Region" aria-expanded="false"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select Region</div></div> </div></button><div class="dropdown-menu" role="combobox" style="max-height: 372.922px; overflow: hidden; min-height: 169px; position: absolute; will-change: transform; min-width: 255px; top: 0px; left: 0px; transform: translate3d(0px, 50px, 0px);" x-placement="bottom-start"><div class="bs-searchbox"><input type="text" class="form-control" autocomplete="off" role="textbox" aria-label="Search"></div><div class="inner show" role="listbox" aria-expanded="false" tabindex="-1" style="max-height: 310.922px; overflow-y: auto; min-height: 107px;"><ul class="dropdown-menu inner show"><li class=""><a role="option" class="dropdown-item" aria-disabled="false" tabindex="0" aria-selected="false"><span class="text">Anywhere</span></a></li><li><a role="option" class="dropdown-item" aria-disabled="false" tabindex="0" aria-selected="false"><span class="text">San Francisco</span></a></li><li><a role="option" class="dropdown-item" aria-disabled="false" tabindex="0" aria-selected="false"><span class="text">Palo Alto</span></a></li><li><a role="option" class="dropdown-item" aria-disabled="false" tabindex="0" aria-selected="false"><span class="text">New York</span></a></li><li><a role="option" class="dropdown-item" aria-disabled="false" tabindex="0" aria-selected="false"><span class="text">Manhattan</span></a></li><li><a role="option" class="dropdown-item" aria-disabled="false" tabindex="0" aria-selected="false"><span class="text">Ontario</span></a></li><li><a role="option" class="dropdown-item" aria-disabled="false" tabindex="0" aria-selected="false"><span class="text">Toronto</span></a></li><li><a role="option" class="dropdown-item" aria-disabled="false" tabindex="0" aria-selected="false"><span class="text">Kansas</span></a></li><li><a role="option" class="dropdown-item" aria-disabled="false" tabindex="0" aria-selected="false"><span class="text">Mountain View</span></a></li></ul></div></div></div>
+                </div>
+                {{-- <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
                   <select class="selectpicker" data-style="btn-white btn-lg" data-width="100%" data-live-search="true" title="Select Region">
                     <option>Anywhere</option>
                     <option>San Francisco</option>
@@ -96,13 +114,23 @@
                     <option>Kansas</option>
                     <option>Mountain View</option>
                   </select>
-                </div>
+                </div> --}}
+
+
+
+
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                  <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" data-style="btn-white btn-lg" data-width="100%" data-live-search="true" title="Select Job Type" tabindex="-98"><option class="bs-title-option" value=""></option>
+                    <option>Part Time</option>
+                    <option>Full Time</option>
+                  </select><button type="button" class="btn dropdown-toggle btn-white btn-lg bs-placeholder" data-toggle="dropdown" role="button" title="Select Job Type" aria-expanded="false"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select Job Type</div></div> </div></button><div class="dropdown-menu" role="combobox" style="max-height: 205.078px; overflow: hidden; min-height: 46px; position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, -2px, 0px);" x-placement="top-start"><div class="bs-searchbox"><input type="text" class="form-control" autocomplete="off" role="textbox" aria-label="Search"></div><div class="inner show" role="listbox" aria-expanded="false" tabindex="-1" style="max-height: 143.078px; overflow-y: auto; min-height: 0px;"><ul class="dropdown-menu inner show"><li class="no-results">No results matched "hybrid"</li></ul></div></div></div>
+                </div>
+                {{-- <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
                   <select class="selectpicker" data-style="btn-white btn-lg" data-width="100%" data-live-search="true" title="Select Job Type">
                     <option>Part Time</option>
                     <option>Full Time</option>
                   </select>
-                </div>
+                </div> --}}
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
                   <button type="submit" class="btn btn-primary btn-lg btn-block text-white btn-search"><span class="icon-search icon mr-2"></span>Search Job</button>
                 </div>
