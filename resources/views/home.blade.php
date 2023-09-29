@@ -126,7 +126,7 @@
         <span class=" icon-keyboard_arrow_down"></span>
       </a>
 
-    </section>
+    </section
     
     <section class="site-section">
       <div class="container">
