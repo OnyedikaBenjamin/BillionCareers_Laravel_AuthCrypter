@@ -420,21 +420,21 @@
   
   </div>
 
-    <!-- SCRIPTS -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/stickyfill.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    
-    <script src="js/bootstrap-select.min.js"></script>
-    
-    <script src="js/custom.js"></script>
+    <script src="{{ asset('js/js-post/jquery.min.js') }}"></script>
+<script src="{{ asset('js/js-post/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('js/js-post/isotope.pkgd.min.js') }}"></script>
+<script src="{{ asset('js/js-post/stickyfill.min.js') }}"></script>
+<script src="{{ asset('js/js-post/jquery.fancybox.min.js') }}"></script>
+<script src="{{ asset('js/js-post/jquery.easing.1.3.js') }}"></script>
+
+<script src="{{ asset('js/js-post/jquery.waypoints.min.js') }}"></script>
+<script src="{{ asset('js/js-post/jquery.animateNumber.min.js') }}"></script>
+<script src="{{ asset('js/js-post/owl.carousel.min.js') }}"></script>
+
+<script src="{{ asset('js/js-post/bootstrap-select.min.js') }}"></script>
+
+<script src="{{ asset('js/js-post/custom.js') }}"></script>
+
 
      
   </body>
