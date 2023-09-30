@@ -43,7 +43,7 @@
                 <ul class="dropdown" style="width: 100px; border-radius:10px">
                   <form action="/logout">
                     <li >Logout</li>
-                    <button type="submit" style="width: 100px; height:100px; border-radius:6px" value="Logout2"></button>
+                    <button type="submit" style="width: 100px; height:100px; border-radius:6px">Logout2</button>
                   </form>
                 </ul>
               </li>
