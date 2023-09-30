@@ -41,10 +41,10 @@
               <li class="has-children">
                 <a href="services.html">Admin</a>
                 <ul class="dropdown" style="width: 100px; border-radius:10px">
-                  <form action="">
-                    
+                  <form action="/logout">
+                    <li >Logout</li>
+                    <button type="submit" style="width: 100px; height:100px; border-radius:6px" value="Logout2"></button>
                   </form>
-                  <li><a href="/logout" style="width: 100px; border-radius:6px">Logout</a></li>
                 </ul>
               </li>
             </ul>
