@@ -112,14 +112,12 @@ class ListingController extends Controller
         $listing->update($formFields);
         return redirect('/jobupdated');
     }
-
     public function deleteListing(Listing $listing){
         if($listing->user_id != auth()->id()) {   // Make sure logged in user is owner
             abort(403, 'Unauthorized Action');}
          $listing->delete();  
          return redirect('/');
     }
-
     public function manageListing(){
         return view('managelisting',  ['listings' => auth()->user()->listings()->get()]);
     }
