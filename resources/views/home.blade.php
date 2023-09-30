@@ -93,7 +93,7 @@
                     <option>Palo Alto</option>
                     <option>New York</option>
                     <option>Manhattan</option>
-                    <option>Ontario</option>
+                    {{-- <option>Ontario</option> --}}
                     <option>Toronto</option>
                     <option>Kansas</option>
                     <option>Mountain View</option>
