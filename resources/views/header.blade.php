@@ -40,8 +40,8 @@
               @else
               <li class="has-children">
                 <a href="services.html">Admin</a>
-                <ul class="dropdown" style="width: 100px">
-                  <li><a href="/logout" style="width: 100px">Logout</a></li>
+                <ul class="dropdown" style="width: 100px; border-radius:10px">
+                  <li><a href="/logout" style="width: 100px; border-radius:6px">Logout</a></li>
                 </ul>
               </li>
             </ul>
