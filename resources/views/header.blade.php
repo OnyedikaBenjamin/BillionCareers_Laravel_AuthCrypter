@@ -20,11 +20,11 @@
                   @auth
                   <li class="has-children">
                     <a href="services.html">{{auth()->user()->name}}</a>
-                    <ul class="dropdown"  style="width: 100px; border-radius:6px">
-                      <form action="/logout" method="POST"></form>
-                      @csrf
-                      <li type="submit"><a style="width: 100px; border-radius:6px">Logout</a></li>
-                    </form>
+                    <ul class="dropdown">
+                      <li><a href="services.html">Services</a></li>
+                      <li><a href="service-single.html">Service Single</a></li>
+                      <li><a href="blog-single.html">Blog Single</a></li>
+                      <li><a href="portfolio.html">Portfolio</a></li>
                     </ul>
                   </li>
                 </ul>
