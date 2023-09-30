@@ -90,7 +90,6 @@
                     <select class="selectpicker" data-style="btn-white btn-lg" data-width="100%" data-live-search="true" title="Select Region" tabindex="-98">
                     <option>Anywhere</option>
                     <option>San Francisco</option>
-                    <option>Palo Alto</option>
                     <option>New York</option>
                     <option>Manhattan</option>
                     <option>Ontario</option>
