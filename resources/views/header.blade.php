@@ -42,9 +42,6 @@
                 <a href="services.html">Admin</a>
                 <ul class="dropdown">
                   <li><a href="services.html">Services</a></li>
-                  <li><a href="service-single.html">Service Single</a></li>
-                  <li><a href="blog-single.html">Blog Single</a></li>
-                  <li><a href="portfolio.html">Portfolio</a></li>
                 </ul>
               </li>
             </ul>
