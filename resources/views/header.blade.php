@@ -41,8 +41,7 @@
               <li class="has-children">
                 <a href="services.html">Admin</a>
                 <ul class="dropdown" style="width: 100px; border-radius:10px">
-                  <form action="/logout">
-                    <li >Logout</li>
+                  <form method="POST" action="/logout">
                     <button type="submit" style="width: 100px; height:50px; border-radius:6px">Logout2</button>
                   </form>
                 </ul>
