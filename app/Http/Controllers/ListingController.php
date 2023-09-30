@@ -23,10 +23,9 @@ class ListingController extends Controller
     }
     public function showAllListing()
     {
-        $listings = Listing::paginate(10); // Paginate with 3 listings per page
-        return view('listings', [
-            'listings' => $listings,
-        ]);
+        // $listings = Listing::paginate(3); // Paginate with 3 listings per page
+        $listings = Listing::select()->take(5)->orderby('id', 'desc')->get();
+        return view('listings', compact('listings'));
     }
 
 
