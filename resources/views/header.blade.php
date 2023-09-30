@@ -41,7 +41,7 @@
               <li class="has-children">
                 <a href="services.html">Admin</a>
                 <ul class="dropdown">
-                  <li><a href="services.html">Services</a></li>
+                  <li><a href="/logout">Logout</a></li>
                 </ul>
               </li>
             </ul>
