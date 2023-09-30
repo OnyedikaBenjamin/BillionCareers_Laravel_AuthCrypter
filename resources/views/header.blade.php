@@ -21,7 +21,7 @@
                   <li class="has-children">
                     <a href="services.html">{{auth()->user()->name}}</a>
                     <ul class="dropdown">
-                      <li><a href="/manage">Services</a></li>
+                      <li><a href="/manage">Admin</a></li>
                       <li><a href="service-single.html">Service Single</a></li>
                       <li><a href="blog-single.html">Blog Single</a></li>
                       <li><a href="portfolio.html">Portfolio</a></li>
