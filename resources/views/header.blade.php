@@ -40,10 +40,11 @@
               @else
               <li class="has-children">
                 <a href="services.html">Admin</a>
-                <ul class="dropdown" style="width: 100px; border-radius:10px">
-                  <form method="POST" action="/logout">
-                    <button type="submit" style="width: 100px; height:50px; border-radius:6px">Logout2</button>
-                  </form>
+                <ul class="dropdown">
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="service-single.html">Service Single</a></li>
+                  <li><a href="blog-single.html">Blog Single</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
                 </ul>
               </li>
             </ul>
