@@ -1,60 +1,58 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-         <title>Job board HTML-5 Template </title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="manifest" href="site.webmanifest">
-		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+<html lang="en">
 
-		<!-- CSS here -->
-           <link rel="stylesheet" href="{{ asset('assets/css/slicknav.css')}}">
-            <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}">
-            <link rel="stylesheet" href="{{ asset('assets/css/animate.min.css') }}">
-            <link rel="stylesheet" href="{{ asset('assets/css/fontawesome-all.min.css') }}">
-            <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css')}}">
-            <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
-            <link rel="stylesheet" href="{{ asset('assets/css/price_rangs.css') }}">
-            <link rel="stylesheet" href="{{ asset('assets/css/flaticon.css') }}">
-            <link rel="stylesheet" href="{{ asset('assets/css/themify-icons.css')}}">
-            <link rel="stylesheet" href="{{ asset('assets/css/slick.css') }}">
-            <link rel="stylesheet" href="{{ asset('assets/css/nice-select.css') }}">
-            <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Job board HTML-5 Template </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
-            <link rel="stylesheet" href="{{ asset('assets/css-post/custom-bs.css')}}">
-            <link rel="stylesheet" href="{{ asset('assets/css-post/jquery.fancybox.min.css')}}">
-            <link rel="stylesheet" href="{{ asset('assets/css-post/bootstrap-select.min.css')}}">
-            <link rel="stylesheet" href="{{ asset('assets/css-post/owl.carousel.min.css')}}">
-            <link rel="stylesheet" href="{{ asset('assets/css-post/animate.min.css')}}">
-            <link rel="stylesheet" href="{{ asset('assets/css-post/quill.snow.css')}}">
-            <link rel="stylesheet" href="{{ asset('assets/css-post/style.css')}}">
-            <link rel="stylesheet" href="{{ asset('assets/fonts/icomoon/style.css')}}">
-            <link rel="stylesheet" href="{{ asset('assets/fonts/line-icons/style.css')}}">
-            <link rel="stylesheet" href="{{'assets/css-post/style.css'}}">
-   
-   </head>
- @extends('header')
-   <body>
-  
-    <main>
-        <!-- Hero Area Start-->
-        {{-- <div class="slider-area ">
-        <div class="single-slider section-overly slider-height2 d-flex align-items-center" data-background="assets/img/hero/about.jpg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="hero-cap text-center">
-                            <h2>{{$singleListing['title']}}</h2>
-                        </div>
-                    </div>
+    <!-- CSS here -->
+    <link rel="stylesheet" href="{{ asset('assets/css/slicknav.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/animate.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/fontawesome-all.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/price_rangs.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/flaticon.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/themify-icons.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/slick.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/nice-select.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+
+    <link rel="stylesheet" href="{{ asset('assets/css-post/custom-bs.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css-post/jquery.fancybox.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css-post/bootstrap-select.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css-post/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css-post/animate.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css-post/quill.snow.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css-post/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/fonts/icomoon/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/fonts/line-icons/style.css')}}">
+</head>
+
+<body>
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/logo/logo.png" alt="">
                 </div>
             </div>
         </div>
-        </div> --}}
-        <!-- Hero Area End -->
-        <!-- job post company Start -->
+    </div>
+    
+    <!-- Preloader End -->
+    @extends('header')
+
+    <main>
+        <>
         <div class="job-post-company pt-120 pb-120">
             <div class="container">
                 <div class="row justify-content-between">
