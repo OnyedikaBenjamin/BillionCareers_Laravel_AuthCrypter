@@ -281,7 +281,6 @@
           <div class="row">
               <div class="col-lg-12">
                   <div class="section-tittle text-center">
-                      <span>Recent Job</span>
                       <h2>Featured Jobs</h2>
                   </div>
               </div>
