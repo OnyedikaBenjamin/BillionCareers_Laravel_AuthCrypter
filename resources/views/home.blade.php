@@ -278,13 +278,14 @@
   <section class="featured-job-area feature-padding">
       <div class="container">
           <!-- Section Tittle -->
-          <div class="row">
+          {{-- <div class="row">
               <div class="col-lg-12">
                   <div class="section-tittle text-center">
                       <h2>Featured Jobs</h2>
                   </div>
               </div>
-          </div>
+          </div> --}}
+          <h2>Featured Jobs</h2>
           <div class="row justify-content-center">
               <div class="col-xl-10">
                   <!-- single-job-content -->
