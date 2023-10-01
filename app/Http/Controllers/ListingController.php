@@ -25,7 +25,8 @@ class ListingController extends Controller
     {
         // $listings = Listing::paginate(3); // Paginate with 3 listings per page
         $listings = Listing::select()->take(1)->orderby('id', 'desc')->get();
-        return view('listings', compact('listings'));
+        $total_listings = Listing::all()->count(); 
+        return view('listings', compact('listings', '$total_listings'));
     }
 
 
