@@ -67,7 +67,7 @@
             </div>
         </div>
 
-        
+
         <div class="job-post-company pt-120 pb-120">
             <div class="container">
                 <div class="row justify-content-between">
@@ -178,7 +178,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-tittle text-center">
-                        <h2>Featured Jobs</h2>
+                        <h2>Related Jobs</h2>
                     </div>
                 </div>
             </div>
