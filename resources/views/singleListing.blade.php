@@ -208,25 +208,6 @@
             </div>
         </div>
         <!-- job post company End -->
-        <div class="single-listing"
-        
-        </div>
-    </div>
-    <!-- Job Category Listing End -->
-</div>
-<!-- Right content -->
-<div class="col-xl-9 col-lg-9 col-md-8">
-    <!-- Featured_job_start -->
-    <section class="featured-job-area">
-        <div class="container">
-            <!-- Count of Job list Start -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="count-job mb-35">
-                        Related Jobs
-                    </div>
-                </div>
-            </div>
 
     </main>
     @extends('footer')
