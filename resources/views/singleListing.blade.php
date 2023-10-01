@@ -208,30 +208,8 @@
             </div>
         </div>
         <!-- job post company End -->
-        <div class="single-listing">
-            <!-- Range Slider Start -->
-            <aside class="left_widgets p_filter_widgets price_rangs_aside sidebar_box_shadow">
-                <div class="small-section-tittle2">
-                    <h4>Filter Jobs</h4>
-                </div>
-                <div class="widgets_inner">
-                    <div class="range_item">
-                        <!-- <div id="slider-range"></div> -->
-                        <input type="text" class="js-range-slider" value="" />
-                        <div class="d-flex align-items-center">
-                            <div class="price_text">
-                                <p>Price :</p>
-                            </div>
-                            <div class="price_value d-flex justify-content-center">
-                                <input type="text" class="js-input-from" id="amount" readonly />
-                                <span>to</span>
-                                <input type="text" class="js-input-to" id="amount" readonly />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </aside>
-            <!-- Range Slider End -->
+        <div class="single-listing"
+        
         </div>
     </div>
     <!-- Job Category Listing End -->
@@ -245,15 +223,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="count-job mb-35">
-                        {{-- @if ($total_listings < 2)
-                        <span>{{$total_listings}} Job found</span>
-                        @else --}}
-                          <span>15 Jobs found</span>  
-                        {{-- @endif --}}
-                        
-                        <!-- Select job items start -->
-                    
-                        <!--  Select job items End-->
+                        Related Jobs
                     </div>
                 </div>
             </div>
