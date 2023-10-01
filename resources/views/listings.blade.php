@@ -237,10 +237,10 @@
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="count-job mb-35">
-                                            @if ($total_jobs < 2)
-                                            <span>{{$total_jobs}} Job found</span>
+                                            @if ($total_listings < 2)
+                                            <span>{{$total_listings}} Job found</span>
                                             @else
-                                              <span>39, 782 Jobs found</span>  
+                                              <span>{{$total_listings}} Jobs found</span>  
                                             @endif
                                             
                                             <!-- Select job items start -->
