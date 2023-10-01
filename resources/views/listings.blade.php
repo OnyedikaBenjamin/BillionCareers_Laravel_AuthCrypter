@@ -240,9 +240,9 @@
                                             @if ($total_jobs < 2)
                                             <span>{{$total_jobs}} Job found</span>
                                             @else
-                                                
+                                              <span>39, 782 Jobs found</span>  
                                             @endif
-                                            <span>39, 782 Jobs found</span>
+                                            
                                             <!-- Select job items start -->
                                             <div class="select-job-items">
                                                 <span>Sort by</span>
