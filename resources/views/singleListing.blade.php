@@ -252,15 +252,7 @@
                         {{-- @endif --}}
                         
                         <!-- Select job items start -->
-                        <div class="select-job-items">
-                            <span>Sort by</span>
-                            <select name="select">
-                                <option value="">None</option>
-                                <option value="">job list</option>
-                                <option value="">job list</option>
-                                <option value="">job list</option>
-                            </select>
-                        </div>
+                    
                         <!--  Select job items End-->
                     </div>
                 </div>
