@@ -138,28 +138,6 @@
     </section
     
 
-
-        <div class="row pagination-wrap">
-          <div class="col-md-6 text-center text-md-left mb-4 mb-md-0">
-            <span>Showing 1-7 Of 43,167 Jobs</span>
-          </div>
-          <div class="col-md-6 text-center text-md-right">
-            <div class="custom-pagination ml-auto">
-              <a href="#" class="prev">Prev</a>
-              <div class="d-inline-block">
-              <a href="#" class="active">1</a>
-              <a href="#">2</a>
-              <a href="#">3</a>
-              <a href="#">4</a>
-              </div>
-              <a href="#" class="next">Next</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
     <section class="py-5 bg-image overlay-primary fixed overlay" style="background-image: url('images/hero_1.jpg');">
       <div class="container">
         <div class="row align-items-center">
