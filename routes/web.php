@@ -40,6 +40,8 @@ Route::post('/users/authenticate', [UserController::class, 'authenticate_user'])
 
 Route::get('/manage', [ListingController::class, 'manageListing']);
 
+Route::resource('categories', CategoryController::class);
+
 
 //     <!-- MAIN CSS -->
 //     <link rel="stylesheet" href="css/style.css">   --}} 
