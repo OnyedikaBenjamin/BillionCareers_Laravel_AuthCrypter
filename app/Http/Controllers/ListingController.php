@@ -121,8 +121,10 @@ class ListingController extends Controller
         return view('managelisting',  ['listings' => auth()->user()->listings()->get()]);
     }
 
-    public function showRelatedJobs(){
+    public function showRelatedJobs($id){
+        $listing = Listing::find($id);
+
         $relatedJobs = Listing::where('category', $listing->category)
-        ->where('id')
+        ->where('id', '!=','$id')
     }
 }
