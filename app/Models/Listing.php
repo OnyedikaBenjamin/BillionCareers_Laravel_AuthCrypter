@@ -13,6 +13,7 @@ class Listing extends Model
     protected $fillable = [
         'role',
         'user_id',
+        'category_id',
         'location',
         'job_type',
         'category',
@@ -28,5 +29,8 @@ class Listing extends Model
 
     public function user(){
         return $this->hasOne(User::class, 'user_id');
+    }
+    public function category(){
+        return $this->hasOne(User::class, 'category_id');
     }
 }
