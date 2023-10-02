@@ -3,9 +3,11 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
-use Illuminate\Database\Seeder;
-use App\Models\Listing;
 use App\Models\User;
+use App\Models\Listing;
+use App\Models\Category;
+use Illuminate\Database\Seeder;
+
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -19,7 +21,6 @@ class DatabaseSeeder extends Seeder
 
          Listing::factory(10)->create([
             'user_id' => $user->id
-            'category_id'
          ]);
 
 
