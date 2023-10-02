@@ -125,6 +125,8 @@ class ListingController extends Controller
         $listing = Listing::find($id);
 
         $relatedJobs = Listing::where('category', $listing->category)
-        ->where('id', '!=','$id')
+        ->where('id', '!=','$id')->take(3)->get();
+
+        return $relatedJobs;
     }
 }
