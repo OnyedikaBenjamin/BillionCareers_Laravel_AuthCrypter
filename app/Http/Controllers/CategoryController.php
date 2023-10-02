@@ -41,16 +41,13 @@ class CategoryController extends Controller
             'name' => 'required|max:255|unique:categories,name,' . $category->id,
             'description' => 'required',
         ]);
-
         $category->update($request->all());
-
         return redirect()->route('categories.index')->with('success', 'Category updated successfully');
     }
 
     public function destroy(Category $category)
     {
         $category->delete();
-
         return redirect()->route('categories.index')->with('success', 'Category deleted successfully');
     }
 }
