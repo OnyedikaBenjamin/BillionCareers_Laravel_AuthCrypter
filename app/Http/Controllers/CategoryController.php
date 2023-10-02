@@ -2,25 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
-
-class CategoryController extends Controller
-{
-    //
-}
-
-
-<?php
-
-namespace App\Http\Controllers;
-
-use Illuminate\Http\Request;
 use App\Models\Category;
+use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class CategoryController extends Controller
 {
-    public function index()
+     public function index()
     {
         $categories = Category::all();
         return view('categories.index', compact('categories'));
