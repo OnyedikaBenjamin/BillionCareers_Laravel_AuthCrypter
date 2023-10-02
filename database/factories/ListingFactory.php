@@ -21,12 +21,14 @@ class ListingFactory extends Factory
      */
     public function definition(): array
     {
-        description_array
+        $category_array = ['Design & Creative', 'Design & Development',
+                             'Sales & Marketing', 'Mobile Application',
+                             'Construction', 'Information Technology', 'Real Estate', 'Content Writer'];
         return [
             'role' => $this->faker->jobTitle,
             'location' => $this->faker->city,
             'job_type' => $this->faker->randomElement(['Full-Time', 'Hybrid', 'Remote']),
-            'category' => $this->faker->randomElement(['Full-Time', 'Hybrid', 'Remote']),
+            'category' => $this->faker->randomElement($category_array),
             'description' => $this->faker->paragraph,
             'salary_range' => '$' . $this->faker->numberBetween(2500, 6000) . ' - $' . $this->faker->numberBetween(6000, 10000),
             'yearly_salary' => '$' . $this->faker->numberBetween(50000, 120000),

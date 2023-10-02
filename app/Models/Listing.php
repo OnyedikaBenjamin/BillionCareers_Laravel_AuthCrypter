@@ -15,6 +15,7 @@ class Listing extends Model
         'user_id',
         'location',
         'job_type',
+        'category',
         'description',
         'salary_range',
         'yearly_salary',
