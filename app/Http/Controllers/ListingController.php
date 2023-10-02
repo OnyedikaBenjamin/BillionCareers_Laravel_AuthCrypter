@@ -95,6 +95,7 @@ class ListingController extends Controller
             'role' => 'required',
             'location' => 'required',
             'job_type' => 'required',
+            'category' => 'required',
             'description' => 'required',
             'salary_range' => 'required',
             'yearly_salary' => 'required',
