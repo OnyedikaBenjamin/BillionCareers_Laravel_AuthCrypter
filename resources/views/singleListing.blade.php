@@ -142,9 +142,9 @@
                         <div class="bg-light p-3 border rounded" style="width: 300px">
                             <h3 class="text-primary  mt-3 h5 pl-3 mb-3 ">Share</h3>
                             <div class="px-3">
-                              <a href="https://www.facebook.com/sharer/sharer.php?u{{route('single.job', $singleListing->id)}}&quote={{$singleListing->role}}" class="pt-3 pb-3 pr-3 pl-0"><span class="icon-facebook"></span></a>
-                              <a href="https://twitter.com/intent/tweet?text=&url=" class="pt-3 pb-3 pr-3 pl-0"><span class="icon-twitter"></span></a>
-                              <a href="#" class="pt-3 pb-3 pr-3 pl-0"><span class="icon-linkedin"></span></a>
+                              <a href="https://www.facebook.com/sharer/sharer.php?u={{route('single.job', $singleListing->id)}}&quote={{$singleListing->role}}" class="pt-3 pb-3 pr-3 pl-0"><span class="icon-facebook"></span></a>
+                              <a href="https://twitter.com/intent/tweet?text={{$singleListing->role}}&url={{route('single.job', $singleListing->id)}}" class="pt-3 pb-3 pr-3 pl-0"><span class="icon-twitter"></span></a>
+                              <a href="https://www.linkedin.com/sharing/share-offsite/?url=" class="pt-3 pb-3 pr-3 pl-0"><span class="icon-linkedin"></span></a>
                               <a href="#" class="pt-3 pb-3 pr-3 pl-0"><span class="icon-pinterest"></span></a>
                             </div>
                           </div>
