@@ -193,7 +193,7 @@
                                 <a href="job_details.html"><img src="assets/img/icon/job-list1.png" alt=""></a>
                             </div>
                             <div class="job-tittle">
-                                <a href="job_details.html"><h4></h4></a>
+                                <a href="job_details.html"><h4>Digital Marketer</h4></a>
                                 <ul>
                                     <li>Creative Agency</li>
                                     <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
