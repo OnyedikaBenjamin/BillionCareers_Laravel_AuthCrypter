@@ -51,9 +51,9 @@
           </nav>
               <div class="right-cta-menu text-right d-flex aligin-items-center col-6">
                 <div class="ml-auto">
-                  <a href="/users/register" class="btn btn-outline-white border-width-2 d-none d-lg-inline-block"><span
+                  <a href="/users/register" class=" btn-outline-white border-width-2 d-none d-lg-inline-block"><span
                       class="mr-2 icon-add"></span>Register</a>
-                  <a href="/users/login" class="btn btn-primary border-width-2 d-none d-lg-inline-block"><span
+                  <a href="/users/login" class=" btn-primary border-width-2 d-none d-lg-inline-block"><span
                       class="mr-2 icon-lock_outline"></span>Log In</a>
                 </div>
                 <a href="#" class="site-menu-toggle js-menu-toggle d-inline-block d-xl-none mt-lg-2 ml-3"><span

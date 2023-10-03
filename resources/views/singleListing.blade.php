@@ -164,7 +164,7 @@
                               <li>Application expires : <span>12 Sep 2020</span></li>
                           </ul>
                          <div class="apply-btn2">
-                            <a href="#" class="btn" style="background-color:rgb(220, 20, 20)">Apply Now</a>
+                            <a href="#" class="btn" style="background-color:rgb(220, 20, 20); color:white ">Apply Now</a>
                          </div>
                        </div>
                         <div class="post-details4  mb-50">
