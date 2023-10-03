@@ -28,7 +28,6 @@ class ListingController extends Controller
         return view('listings', compact('listings', 'total_listings'));
     }
 
-
     public function showSingleListing($id)
     {
         $listing = Listing::find($id);

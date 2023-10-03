@@ -185,6 +185,7 @@
             <div class="row justify-content-center">
                 <div class="col-xl-10">
                     <!-- single-job-content -->
+                    @for
                     <div class="single-job-items mb-30">
                         <div class="job-items">
                             <div class="company-img">
@@ -204,6 +205,8 @@
                             <span>7 hours ago</span>
                         </div>
                     </div>
+
+                    @end
                 </div>
             </div>
         </div>
