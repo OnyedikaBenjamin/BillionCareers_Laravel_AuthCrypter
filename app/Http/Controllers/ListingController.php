@@ -30,11 +30,9 @@ class ListingController extends Controller
 
     public function showSingleListing($id)
     {
-        $listing = Listing::find($id);
+        $singleListing = Listing::find($id);
         if ($listing) {
-            return view('singleListing', [
-                'singleListing' => Listing::find($id)
-            ]);
+            return view('singleListing', );
         } else {
             abort('404');
         }
