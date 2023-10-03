@@ -11,7 +11,7 @@ use Illuminate\Tests\Integration\Database\EloquentModelDateCastingTest\EloquentM
 Route::get('/', [ListingController::class, 'go_home']);
 Route::get('/listings', [ListingController::class, 'showAllListing']);
 
-Route::get('/listings/{id}', [ListingController::class, 'showSingleListing']);
+Route::get('/listings/{id}', [ListingController::class, 'showSingleListing'])->name('single.job');;
 
 Route::get('/create', [ListingController::class, 'createListing'])->middleware('auth');
 
