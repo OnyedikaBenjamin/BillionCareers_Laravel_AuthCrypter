@@ -34,6 +34,7 @@ class ListingController extends Controller
         $relatedJobs = Listing::where('category', $singleListing->category)
         ->where('id', '!=','$id')
         ->take(4)->get();
+        
         if ($singleListing) {
             return view('singleListing', compact('singleListing', 'relatedJobs'));
         } else {

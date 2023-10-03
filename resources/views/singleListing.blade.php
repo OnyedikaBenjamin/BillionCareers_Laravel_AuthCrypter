@@ -178,7 +178,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-tittle text-center">
-                        <h2>{{}}Related Jobs</h2>
+                        <h2>{{$relatedJobs->count()}} Related Jobs</h2>
                     </div>
                 </div>
             </div>
