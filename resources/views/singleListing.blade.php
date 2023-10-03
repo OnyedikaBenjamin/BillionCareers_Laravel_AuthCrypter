@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/nice-select.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('assets/css-post/custom-bs.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css-post/custom-bs.css')}}"> 
     <link rel="stylesheet" href="{{ asset('assets/css-post/jquery.fancybox.min.css')}}">
     <link rel="stylesheet" href="{{ asset('assets/css-post/bootstrap-select.min.css')}}">
     <link rel="stylesheet" href="{{ asset('assets/css-post/owl.carousel.min.css')}}">
@@ -33,6 +33,20 @@
     <link rel="stylesheet" href="{{ asset('assets/css-post/style.css')}}">
     <link rel="stylesheet" href="{{ asset('assets/fonts/icomoon/style.css')}}">
     <link rel="stylesheet" href="{{ asset('assets/fonts/line-icons/style.css')}}">
+
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+            <link rel="stylesheet" href="assets/css/flaticon.css">
+            <link rel="stylesheet" href="assets/css/slicknav.css">
+            <link rel="stylesheet" href="assets/css/price_rangs.css">
+            <link rel="stylesheet" href="assets/css/animate.min.css">
+            <link rel="stylesheet" href="assets/css/magnific-popup.css">
+            <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+            <link rel="stylesheet" href="assets/css/themify-icons.css">
+            <link rel="stylesheet" href="assets/css/slick.css">
+            <link rel="stylesheet" href="assets/css/nice-select.css">
+            <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
