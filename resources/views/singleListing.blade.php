@@ -159,7 +159,7 @@
                     </div>
                   
                     <div class="col-xl-4 col-lg-4">
-                        <div class="post-details3  mb-50" style="color: beige">
+                        <div class="post-details3  mb-50" style="background-color: rgb(185, 185, 185)">
                             <!-- Small Section Tittle -->
                            <div class="small-section-tittle">
                                <h4>Job Overview</h4>
