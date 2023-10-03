@@ -31,8 +31,11 @@ class ListingController extends Controller
     public function showSingleListing($id)
     {
         $singleListing = Listing::find($id);
-        if ($listing) {
-            return view('singleListing', );
+        $relatedJobs = Listing::where('category', $singleListing->category)
+        ->where('id', '!=','$id')
+        ->take(4)->get();
+        if ($singleListing) {
+            return view('singleListing', compact('singleListing', 'relatedJobs'));
         } else {
             abort('404');
         }
