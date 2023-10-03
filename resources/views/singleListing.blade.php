@@ -184,9 +184,10 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-xl-10">
+
                     <!-- single-job-content -->
-                    @for
-                    <div class="single-job-items mb-30">
+                    @foreach ($relatedJobs as $item)
+                        <div class="single-job-items mb-30">
                         <div class="job-items">
                             <div class="company-img">
                                 <a href="job_details.html"><img src="assets/img/icon/job-list1.png" alt=""></a>
@@ -205,8 +206,9 @@
                             <span>7 hours ago</span>
                         </div>
                     </div>
-
-                    @end
+                    @endforeach
+                    
+                    
                 </div>
             </div>
         </div>
