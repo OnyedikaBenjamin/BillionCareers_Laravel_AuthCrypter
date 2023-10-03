@@ -21,7 +21,8 @@ class DatabaseSeeder extends Seeder
 
 
          Listing::factory(10)->create([
-            'user_id' => $user->id
+            'user_id' => $user->id,
+            'category_id' =>$category->id
          ]);
 
 
