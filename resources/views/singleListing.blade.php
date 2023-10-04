@@ -254,22 +254,7 @@
                                     <h3 class="text-black my-5 border-bottom pb-2">Company Details</h3>
                       
                                     <div class="form-group">
-                                      <label for="company-name">Company Name</label>
-                                      <input type="text" name="company" class="form-control" id="company-name" placeholder="e.g. Billion PLC"
-                                      value="{{old('company')}}">
-                                      @error('company')
-                                      <p class="text-red-500">{{$message}}</p>
-                                      @enderror
-                                    </div>
-                      
-                                    <div class="form-group">
-                                      <label for="email">Email</label>
-                                      <input type="text" name="email" class="form-control" id="email" placeholder="you@yourdomain.com"
-                                      value="{{old('email')}}">
-                                      @error('email')
-                                      <p class="text-red-500">{{$message}}</p>
-                                      @enderror
-                                    </div>
+                                 
                       
                                     
                        <a href="#" class="btn btn-block btn-light btn-md"><span class="icon-heart-o mr-2 text-danger"></span>Save Job</a>
