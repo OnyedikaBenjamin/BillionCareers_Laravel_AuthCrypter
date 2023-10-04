@@ -15,7 +15,19 @@ return new class extends Migration
             $table->id();
             $table->foreignId('user_id')->constrained();
             $table->foreignId('listing_id')->constrained();
-            $table->foreignId('listing_id')->constrained();
+            $table->string('role');
+            $table->string('location');
+            $table->string('job_type');
+            $table->string('category');
+            $table->longText('description');
+            $table->string('salary_range');
+            $table->string('yearly_salary');
+            $table->string('no_vacancy');
+            $table->string('company');
+            $table->string('email');
+            $table->longText('company_description')->nullable();
+            $table->string('website')->nullable();
+            $table->string('logo')->nullable();
             $table->timestamps();
         });
     }
