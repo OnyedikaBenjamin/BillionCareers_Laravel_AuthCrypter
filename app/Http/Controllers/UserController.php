@@ -53,7 +53,7 @@ class UserController extends Controller
 
     public function savedJobs()
     {
-        return $this->belongsToMany(Job::class, 'saved_job_user', 'user_id', 'job_id')->withTimestamps();
+        return $this->belongsToMany(Listing::class, 'saved_job_user', 'user_id', 'job_id')->withTimestamps();
     }
 }
 
