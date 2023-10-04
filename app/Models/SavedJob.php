@@ -31,4 +31,9 @@ class SavedJob extends Model
     public function category(){
         return $this->hasOne(User::class, 'category_id');
     }
+
+    public function savedByUsers()
+    {
+        return $this->belongsToMany(User::class, 'saved_job_user', 'job_id', 'user_id')->withTimestamps();
+    }
 }
