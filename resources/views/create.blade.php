@@ -136,15 +136,6 @@
             </div>
           </div>
           <div class="col-lg-4">
-            {{-- <div class="row">
-              <div class="col-6">
-                <a href="#" class="btn btn-block btn-light btn-md"><span
-                    class="icon-open_in_new mr-2"></span></a>
-              </div>
-              <div class="col-6">
-                <a href="#" class="btn btn-block btn-primary btn-md">Save Job</a>
-              </div>
-            </div> --}}
           </div>
         </div>
         <div class="row mb-5">
