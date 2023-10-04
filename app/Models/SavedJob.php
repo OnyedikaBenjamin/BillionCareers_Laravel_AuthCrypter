@@ -23,6 +23,7 @@ class SavedJob extends Model
         'email',
         'company_description',
         'website',
+        'logo'
     ];
 
 
