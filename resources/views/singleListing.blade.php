@@ -284,27 +284,7 @@
                                     </div>
                       
                                     <div class="form-group">
-                                      <label for="company-website-tw d-block">Upload Logo</label> <br>
-                                      <label class="btn btn-primary btn-md btn-file">
-                                        Browse File<input name="logo" type="file">
-                                      </label>              
-                                    </div>
-                      
-                      
-                                    <div class="row align-items-center mb-5">
-                      
-                                      <div class="col-lg-4 ml-auto">
-                                        <div class="row">
-                                          <div class="col-6">
-                                            <a href="#" class="btn btn-block btn-light btn-md"><span
-                                                class="icon-open_in_new mr-2"></span>Preview</a>
-                                          </div>
-                                          <div class="col-6">
-                                            <input type="submit" class="btn btn-block btn-primary btn-md" value="Save Job">
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
+                                    
                       
                                   </form>
                               <a href="#" class="btn btn-block btn-light btn-md"><span class="icon-heart-o mr-2 text-danger"></span>Save Job</a>
