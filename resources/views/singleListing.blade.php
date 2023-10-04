@@ -172,12 +172,13 @@
                               <li>Salary :  <span>{{$singleListing->yearly_salary}}</span></li>
                               <li>Application expires : <span>12 Sep 2020</span></li>
                           </ul>
-                         {{-- <div class="apply-btn2">
-                            <a href="#" class="btn" style="background-color:rgb(220, 20, 20); color:white ">Apply Now</a>
-                         </div> --}}
+
+
+
+                          
                          <div class="row">
                             <div class="col-6">
-                                
+
                               <a href="#" class="btn btn-block btn-light btn-md"><span class="icon-heart-o mr-2 text-danger"></span>Save Job</a>
                             </div>
                             <div class="col-6">
