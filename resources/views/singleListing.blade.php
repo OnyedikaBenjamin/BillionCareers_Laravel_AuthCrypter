@@ -191,15 +191,7 @@
                                     @csrf
                                       <input type="hidden" value="">
                       
-                                    <div class="form-group">
-                                      <label for="job-location">Location</label>
-                                      <input type="text" name="location" class="form-control" id="job-location" placeholder="e.g. New York" 
-                                      value="{{old('location')}}">
-                                      @error('location')
-                                      <p class="text-red-500">{{$message}}</p>
-                                      @enderror
-                                    </div>
-                      
+                                   
                       
                                 
                       
