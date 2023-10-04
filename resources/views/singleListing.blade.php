@@ -233,27 +233,7 @@
                                       @enderror
                                     </div>
                       
-                                    <div class="form-group">
-                                      <label for="job-title">Salary Per-Year</label>
-                                      <input type="text" name="yearly_salary" class="form-control" id="job-title" placeholder="$78,000"
-                                      value="{{old('yearly_salary')}}">
-                                      @error('yearly_salary')
-                                      <p class="text-red-500">{{$message}}</p>
-                                      @enderror
-                                    </div>
-                      
-                                    <div class="form-group">
-                                      <label for="job-title">No of vacancy</label>
-                                      <input type="number" name="no_vacancy" class="form-control" id="job-title" placeholder="0"
-                                      value="{{old('no_vacancy')}}">
-                                      @error('no_vacancy')
-                                      <p class="text-red-500">{{$message}}</p>
-                                      @enderror
-                                    </div>
-                      
-                                    <h3 class="text-black my-5 border-bottom pb-2">Company Details</h3>
-                      
-                                    <div class="form-group">
+                                   
                                  
                       
                                     
