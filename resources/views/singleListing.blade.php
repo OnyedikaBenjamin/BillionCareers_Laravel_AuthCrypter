@@ -271,23 +271,10 @@
                                       @enderror
                                     </div>
                       
-                                    <div class="form-group">
-                                      <label for="company-description">Company Description (Optional)</label>
-                                      <textarea name="company_description" class="form-control" id="company-description" rows="5"
-                                        placeholder="Description"  value="{{old('company_description')}}"></textarea>
-                                    </div>
-                      
-                                    <div class="form-group">
-                                      <label for="company-website">Website (Optional)</label>
-                                      <input type="text" name="website" class="form-control" id="company-website" placeholder="https://"
-                                      value="{{old('website')}}">
-                                    </div>
-                      
-                                    <div class="form-group">
                                     
-                      
+                       <a href="#" class="btn btn-block btn-light btn-md"><span class="icon-heart-o mr-2 text-danger"></span>Save Job</a>
                                   </form>
-                              <a href="#" class="btn btn-block btn-light btn-md"><span class="icon-heart-o mr-2 text-danger"></span>Save Job</a>
+                             
                             </div>
 
 
