@@ -189,9 +189,6 @@
                             <div class="col-6">
                                 <form class="p-4 p-md-5 border rounded" method="POST" action="/listings" enctype="multipart/form-data">
                                     @csrf
-                      
-                                    <div class="form-group">
-                                      <label for="job-title">Job Title</label>
                                       <input type="text" name="role" class="form-control" id="job-title" placeholder="Software Engineer" 
                                       value="{{old('role')}}">
                                       @error('role')
