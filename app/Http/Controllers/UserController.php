@@ -50,5 +50,10 @@ class UserController extends Controller
         }
         return back()->withErrors(['email' => 'Invalid Credentials'])->onlyInput('email');
     }
+
+    public function savedJobs()
+    {
+        return $this->belongsToMany(Job::class, 'saved_job_user', 'user_id', 'job_id')->withTimestamps();
+    }
 }
 
