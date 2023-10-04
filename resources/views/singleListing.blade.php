@@ -214,24 +214,7 @@
                                       @enderror
                                     </div>
                       
-                                    <div class="form-group">
-                                      <label for="job-description">Job Description</label>
-                                      <textarea name="description" class="form-control" id="job-description" rows="5"
-                                        placeholder="Write Job Description!" 
-                                        value="{{old('job-description')}}"></textarea>
-                                        @error('description')
-                                      <p class="text-red-500">{{$message}}</p>
-                                      @enderror
-                                    </div>
-                      
-                                    <div class="form-group">
-                                      <label for="job-title">Salary Range</label>
-                                      <input type="text" name="salary_range" class="form-control" id="job-title" placeholder="$2500 - $4000" 
-                                      value="{{old('salary_range')}}">
-                                      @error('salary_range')
-                                      <p class="text-red-500">{{$message}}</p>
-                                      @enderror
-                                    </div>
+                                
                       
                                    
                                  
