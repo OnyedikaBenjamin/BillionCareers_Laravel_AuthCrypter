@@ -200,19 +200,6 @@
                                       @enderror
                                     </div>
                       
-                                    <div class="form-group">
-                                      <label for="job-type">Job Type</label>
-                                      <select class="selectpicker border rounded" name="job_type" id="job-type" data-style="btn-black"
-                                        data-width="100%" data-live-search="true" title="Select Job Type" 
-                                        value="{{old('job_type')}}">
-                                        <option>Full-Time</option>
-                                        <option>Hybrid</option>
-                                        <option>Remote</option>
-                                      </select>
-                                      @error('job_type')
-                                      <p class="text-red-500">{{$message}}</p>
-                                      @enderror
-                                    </div>
                       
                                 
                       
