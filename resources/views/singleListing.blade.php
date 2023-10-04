@@ -182,12 +182,139 @@
 
 
 
-                          
+
 
 
                          <div class="row">
                             <div class="col-6">
-
+                                <form class="p-4 p-md-5 border rounded" method="POST" action="/listings" enctype="multipart/form-data">
+                                    @csrf
+                      
+                                    <div class="form-group">
+                                      <label for="job-title">Job Title</label>
+                                      <input type="text" name="role" class="form-control" id="job-title" placeholder="Software Engineer" 
+                                      value="{{old('role')}}">
+                                      @error('role')
+                                      <p class="text-red-500">{{$message}}</p>
+                                      @enderror
+                                    </div>
+                      
+                                    <div class="form-group">
+                                      <label for="job-location">Location</label>
+                                      <input type="text" name="location" class="form-control" id="job-location" placeholder="e.g. New York" 
+                                      value="{{old('location')}}">
+                                      @error('location')
+                                      <p class="text-red-500">{{$message}}</p>
+                                      @enderror
+                                    </div>
+                      
+                                    <div class="form-group">
+                                      <label for="job-type">Job Type</label>
+                                      <select class="selectpicker border rounded" name="job_type" id="job-type" data-style="btn-black"
+                                        data-width="100%" data-live-search="true" title="Select Job Type" 
+                                        value="{{old('job_type')}}">
+                                        <option>Full-Time</option>
+                                        <option>Hybrid</option>
+                                        <option>Remote</option>
+                                      </select>
+                                      @error('job_type')
+                                      <p class="text-red-500">{{$message}}</p>
+                                      @enderror
+                                    </div>
+                      
+                                    <div class="form-group">
+                                      <label for="job-description">Job Description</label>
+                                      <textarea name="description" class="form-control" id="job-description" rows="5"
+                                        placeholder="Write Job Description!" 
+                                        value="{{old('job-description')}}"></textarea>
+                                        @error('description')
+                                      <p class="text-red-500">{{$message}}</p>
+                                      @enderror
+                                    </div>
+                      
+                                    <div class="form-group">
+                                      <label for="job-title">Salary Range</label>
+                                      <input type="text" name="salary_range" class="form-control" id="job-title" placeholder="$2500 - $4000" 
+                                      value="{{old('salary_range')}}">
+                                      @error('salary_range')
+                                      <p class="text-red-500">{{$message}}</p>
+                                      @enderror
+                                    </div>
+                      
+                                    <div class="form-group">
+                                      <label for="job-title">Salary Per-Year</label>
+                                      <input type="text" name="yearly_salary" class="form-control" id="job-title" placeholder="$78,000"
+                                      value="{{old('yearly_salary')}}">
+                                      @error('yearly_salary')
+                                      <p class="text-red-500">{{$message}}</p>
+                                      @enderror
+                                    </div>
+                      
+                                    <div class="form-group">
+                                      <label for="job-title">No of vacancy</label>
+                                      <input type="number" name="no_vacancy" class="form-control" id="job-title" placeholder="0"
+                                      value="{{old('no_vacancy')}}">
+                                      @error('no_vacancy')
+                                      <p class="text-red-500">{{$message}}</p>
+                                      @enderror
+                                    </div>
+                      
+                                    <h3 class="text-black my-5 border-bottom pb-2">Company Details</h3>
+                      
+                                    <div class="form-group">
+                                      <label for="company-name">Company Name</label>
+                                      <input type="text" name="company" class="form-control" id="company-name" placeholder="e.g. Billion PLC"
+                                      value="{{old('company')}}">
+                                      @error('company')
+                                      <p class="text-red-500">{{$message}}</p>
+                                      @enderror
+                                    </div>
+                      
+                                    <div class="form-group">
+                                      <label for="email">Email</label>
+                                      <input type="text" name="email" class="form-control" id="email" placeholder="you@yourdomain.com"
+                                      value="{{old('email')}}">
+                                      @error('email')
+                                      <p class="text-red-500">{{$message}}</p>
+                                      @enderror
+                                    </div>
+                      
+                                    <div class="form-group">
+                                      <label for="company-description">Company Description (Optional)</label>
+                                      <textarea name="company_description" class="form-control" id="company-description" rows="5"
+                                        placeholder="Description"  value="{{old('company_description')}}"></textarea>
+                                    </div>
+                      
+                                    <div class="form-group">
+                                      <label for="company-website">Website (Optional)</label>
+                                      <input type="text" name="website" class="form-control" id="company-website" placeholder="https://"
+                                      value="{{old('website')}}">
+                                    </div>
+                      
+                                    <div class="form-group">
+                                      <label for="company-website-tw d-block">Upload Logo</label> <br>
+                                      <label class="btn btn-primary btn-md btn-file">
+                                        Browse File<input name="logo" type="file">
+                                      </label>              
+                                    </div>
+                      
+                      
+                                    <div class="row align-items-center mb-5">
+                      
+                                      <div class="col-lg-4 ml-auto">
+                                        <div class="row">
+                                          <div class="col-6">
+                                            <a href="#" class="btn btn-block btn-light btn-md"><span
+                                                class="icon-open_in_new mr-2"></span>Preview</a>
+                                          </div>
+                                          <div class="col-6">
+                                            <input type="submit" class="btn btn-block btn-primary btn-md" value="Save Job">
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                      
+                                  </form>
                               <a href="#" class="btn btn-block btn-light btn-md"><span class="icon-heart-o mr-2 text-danger"></span>Save Job</a>
                             </div>
 
