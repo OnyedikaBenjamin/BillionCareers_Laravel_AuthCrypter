@@ -189,11 +189,7 @@
                             <div class="col-6">
                                 <form class="p-4 p-md-5 border rounded" method="POST" action="/listings" enctype="multipart/form-data">
                                     @csrf
-                                      <input type="text" >
-                                      @error('role')
-                                      <p class="text-red-500">{{$message}}</p>
-                                      @enderror
-                                    </div>
+                                      <input type="hidden" value="">
                       
                                     <div class="form-group">
                                       <label for="job-location">Location</label>
