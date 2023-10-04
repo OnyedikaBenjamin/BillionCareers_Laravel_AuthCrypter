@@ -189,8 +189,7 @@
                             <div class="col-6">
                                 <form class="p-4 p-md-5 border rounded" method="POST" action="/listings" enctype="multipart/form-data">
                                     @csrf
-                                      <input type="text" name="role" class="form-control" id="job-title" placeholder="Software Engineer" 
-                                      value="{{old('role')}}">
+                                      <input type="text" >
                                       @error('role')
                                       <p class="text-red-500">{{$message}}</p>
                                       @enderror
