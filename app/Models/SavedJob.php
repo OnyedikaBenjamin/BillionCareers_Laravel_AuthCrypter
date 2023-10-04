@@ -13,10 +13,8 @@ class SavedJob extends Model
     protected $fillable = [
         'role',
         'user_id',
-        'category_id',
         'location',
         'job_type',
-        'category',
         'description',
         'salary_range',
         'yearly_salary',

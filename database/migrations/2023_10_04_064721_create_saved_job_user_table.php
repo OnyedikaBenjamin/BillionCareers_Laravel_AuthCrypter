@@ -17,7 +17,6 @@ return new class extends Migration
             $table->foreignId('user_id')->constrained();
             $table->string('location');
             $table->string('job_type');
-            $table->string('category');
             $table->longText('description');
             $table->string('salary_range');
             $table->string('yearly_salary');
