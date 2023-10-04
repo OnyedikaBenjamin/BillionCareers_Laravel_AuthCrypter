@@ -177,6 +177,7 @@
                          </div> --}}
                          <div class="row">
                             <div class="col-6">
+                                
                               <a href="#" class="btn btn-block btn-light btn-md"><span class="icon-heart-o mr-2 text-danger"></span>Save Job</a>
                             </div>
                             <div class="col-6">
