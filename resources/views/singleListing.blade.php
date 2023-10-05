@@ -183,7 +183,7 @@
                                       <input name="role" type="hidden" value="">
                                       <input name="user_id" name=""type="hidden" value="">
                                       <input name="location" type="hidden" value="">
-                                      <input name="" type="hidden" value="">
+                                      <input name="job_type" type="hidden" value="">
                                       <input name="" type="hidden" value="">
                                       <input name="" type="hidden" value="">
                                       <input name="" type="hidden" value="">
