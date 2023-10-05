@@ -26,7 +26,7 @@ class SavedJobController extends Controller
             'logo' => $request->logo,
         ]);
 
-        if()
+        if($jobToSave)
         // if ($request->hasFile('logo')) {
         //     $formFields['logo'] = $request->file('logo')->store('logos', 'public');
         // }
