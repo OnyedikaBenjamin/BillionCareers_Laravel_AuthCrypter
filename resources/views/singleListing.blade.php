@@ -191,7 +191,7 @@
                                       <input name="company" type="hidden" value="">
                                       <input name="email" type="hidden" value="">
                                       <input name="company_description" type="hidden" value="">
-                                      <input name="" type="hidden" value="">
+                                      <input name="website" type="hidden" value="">
                                       <input name="" type="hidden" value="">
 
                       
