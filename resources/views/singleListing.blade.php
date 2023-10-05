@@ -178,13 +178,13 @@
 
                          <div class="row">
                             <div class="col-6">
-                                <form class="p-4 p-md-5 border rounded" method="POST" action="/listings" enctype="multipart/form-data">
+                                {{-- <form class="p-4 p-md-5 border rounded" method="POST" action="/listings" enctype="multipart/form-data"> --}}
                                     @csrf
                                       <input type="hidden" value="">
                       
                                               
                        <a href="#" class="btn btn-block btn-light btn-md"><span class="icon-heart-o mr-2 text-danger"></span>Save Job</a>
-                                  </form>
+                                  {{-- </form> --}}
                              
                             </div>
 
