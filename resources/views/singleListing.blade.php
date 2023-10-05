@@ -180,19 +180,19 @@
                             <div class="col-6">
                                 <form method="POST" action="/listings" enctype="multipart/form-data">
                                     @csrf
-                                      <input nametype="hidden" value="">
+                                      <input name="" type="hidden" value="">
+                                      <input name=""type="hidden" value="">
                                       <input type="hidden" value="">
                                       <input type="hidden" value="">
                                       <input type="hidden" value="">
                                       <input type="hidden" value="">
                                       <input type="hidden" value="">
                                       <input type="hidden" value="">
-                                      <input type="hidden" value="">
-                                      <input type="hidden" value="">
-                                      <input type="hidden" value="">
-                                      <input type="hidden" value="">
-                                      <input type="hidden" value="">
-                                      <input type="hidden" value="">
+                                      <input name=""type="hidden" value="">
+                                      <input name=""type="hidden" value="">
+                                      <input name=""type="hidden" value="">
+                                      <input name=""type="hidden" value="">
+                                      <input name=""type="hidden" value="">
 
                       
                                               
