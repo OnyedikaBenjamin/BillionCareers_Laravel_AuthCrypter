@@ -178,7 +178,7 @@
 
                          <div class="row">
                             <div class="col-6">
-                                <form method="POST" action="/listings" enctype="multipart/form-data">
+                                <form method="POST" action="/savedjobs/create" enctype="multipart/form-data">
                                     @csrf
                                       <input name="role" type="hidden" value="">
                                       <input name="user_id" name=""type="hidden" value="">
