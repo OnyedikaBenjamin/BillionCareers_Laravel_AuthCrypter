@@ -12,7 +12,7 @@ class SavedJobController extends Controller
     {
         $jobToSave = SavedJob::create([
             'role' => $request->role,
-            'user_id' => ,
+            'user_id' => $request->user_id,
             'location' => $request->location,
             'job_type' => $request->job_type,
             'description' => $request->description,
@@ -26,6 +26,7 @@ class SavedJobController extends Controller
             'logo' => $request->logo,
         ]);
 
+        if()
         // if ($request->hasFile('logo')) {
         //     $formFields['logo'] = $request->file('logo')->store('logos', 'public');
         // }
