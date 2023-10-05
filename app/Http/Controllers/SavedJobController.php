@@ -10,7 +10,6 @@ class SavedJobController extends Controller
 {
     public function store_saved_jobs(Request $request)
     {
-        // dd($request ->file('logo'));
         $jobToSave = SavedJob::create([
             'role' => $request->role,
             'location' => $request->location,
