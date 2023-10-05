@@ -25,9 +25,9 @@ class SavedJobController extends Controller
             'logo' => $request->logo,
         ]);
 
-        if ($request->hasFile('logo')) {
-            $formFields['logo'] = $request->file('logo')->store('logos', 'public');
-        }
+        // if ($request->hasFile('logo')) {
+        //     $formFields['logo'] = $request->file('logo')->store('logos', 'public');
+        // }
 
         $formFields['user_id'] = auth()->id();  // maps the user creating the post to the post
 
