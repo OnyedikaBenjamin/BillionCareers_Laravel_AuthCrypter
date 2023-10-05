@@ -189,7 +189,7 @@
                                       <input name="yearly_salary" type="hidden" value="">
                                       <input name="no_vacancy" type="hidden" value="">
                                       <input name="company" type="hidden" value="">
-                                      <input name="" type="hidden" value="">
+                                      <input name="email" type="hidden" value="">
                                       <input name="" type="hidden" value="">
                                       <input name="" type="hidden" value="">
                                       <input name="" type="hidden" value="">
