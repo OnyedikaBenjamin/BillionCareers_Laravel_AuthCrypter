@@ -51,9 +51,7 @@ Route::put('/categories/{category}', [CategoryController::class, 'update'])->nam
 Route::delete('/categories/{category}', [CategoryController::class, 'destroy'])->name('categories.destroy');
 
 
-Route::post('/savedjobs/create', [SavedJobController::class, 'store_saved_jobs'])->middleware('auth');
-
-
+Route::post('/savedjobs/create', [SavedJobController::class, 'store_saved_jobs']);
 // Route::get('/giging', function(){
 //     return response('<h1>Omo today na giging oo</h1>');
 // });
