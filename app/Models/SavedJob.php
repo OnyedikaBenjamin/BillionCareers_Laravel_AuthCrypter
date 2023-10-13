@@ -9,7 +9,7 @@ class SavedJob extends Model
 {
     use HasFactory;
 
-    protected $table = 'saved_jobs';
+    protected $table = 'saved_job_user';
     protected $fillable = [
         'role',
         'job_id',
