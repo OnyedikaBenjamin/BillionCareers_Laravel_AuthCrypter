@@ -29,8 +29,8 @@ class SavedJobController extends Controller
         if($jobToSave){
             return redirect("/listings");
         }
-        if ($request->hasFile('logo')) {
-            $formFields['logo'] = $request->file('logo')->store('logos', 'public');
-        }
+        // if ($request->hasFile('logo')) {
+        //     $formFields['logo'] = $request->file('logo')->store('logos', 'public');
+        // }
     }
 }
