@@ -12,7 +12,7 @@ class SavedJobController extends Controller
     {
         $jobToSave = SavedJob::create([
             'role' => $request->role,
-            'listing_id' => $request->id,
+            'listing_id' => $request->listing_id,
             'user_id' => $request->user_id,
             'location' => $request->location,
             'job_type' => $request->job_type,
