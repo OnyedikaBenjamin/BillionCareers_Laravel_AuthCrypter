@@ -180,7 +180,7 @@
                             <div class="col-6">
                                 <form method="POST" action="/savedjobs/create" enctype="multipart/form-data">
                                     @csrf
-                                      <input name="role" type="hidden" value="">
+                                      <input name="role" type="hidden" value="{{}}">
                                       <input name="user_id" name=""type="hidden" value="">
                                       <input name="location" type="hidden" value="">
                                       <input name="job_type" type="hidden" value="">
