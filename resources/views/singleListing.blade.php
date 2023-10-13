@@ -185,7 +185,7 @@
                                       <input name="location" type="hidden" value="{{$singleListing->location}}">
                                       <input name="job_type" type="hidden" value="{{$singleListing->job_type}}">
                                       <input name="description" type="hidden" value="{{$singleListing->description}}">
-                                      <input name="salary_range" type="hidden" value="">
+                                      <input name="salary_range" type="hidden" value="{{$singleListing->salary_range}}">
                                       <input name="yearly_salary" type="hidden" value="">
                                       <input name="no_vacancy" type="hidden" value="">
                                       <input name="company" type="hidden" value="">
