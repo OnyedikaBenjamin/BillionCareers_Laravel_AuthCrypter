@@ -7,7 +7,6 @@ use App\Models\SavedJob;
 use Illuminate\Http\Request;
 
 class SavedJobController extends Controller
-      SavedJobController
 {
     public function store_saved_jobs(Request $request)
     {
