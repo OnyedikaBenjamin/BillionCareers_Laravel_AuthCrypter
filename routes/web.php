@@ -52,8 +52,6 @@ Route::delete('/categories/{category}', [CategoryController::class, 'destroy'])-
 
 
 Route::post('/savedjobs/create', [SavedJobController::class, 'store_saved_jobs'])->middleware('auth');
-//     <!-- MAIN CSS -->
-//     <link rel="stylesheet" href="css/style.css">   --}} 
 
 
 // Route::get('/giging', function(){
