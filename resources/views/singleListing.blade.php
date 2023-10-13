@@ -181,6 +181,7 @@
                                 <form method="POST" action="/savedjobs/create" enctype="multipart/form-data">
                                     @csrf
                                       <input name="role" type="hidden" value="{{$singleListing->role}}">
+                                      <input name="listing_id" type="hidden" value="{{$singleListing->id}}">
                                       <input name="user_id" name=""type="hidden" value="{{Auth::user()->id}}">
                                       <input name="location" type="hidden" value="{{$singleListing->location}}">
                                       <input name="job_type" type="hidden" value="{{$singleListing->job_type}}">

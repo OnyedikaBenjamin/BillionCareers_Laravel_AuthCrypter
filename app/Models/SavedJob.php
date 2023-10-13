@@ -12,7 +12,7 @@ class SavedJob extends Model
     protected $table = 'saved_job_user';
     protected $fillable = [
         'role',
-        'job_id',
+        'listing_id',
         'user_id',
         'location',
         'job_type',
