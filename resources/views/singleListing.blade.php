@@ -197,8 +197,7 @@
                         class="icon-heart-o mr-2 text-danger">
                         </span>Save Job</a>
                                   </form>
-                            </div>
-
+                                </div>
 
                             <div class="col-6">
                               <a href="#" class="btn btn-block btn-primary btn-md">Apply Now</a>
