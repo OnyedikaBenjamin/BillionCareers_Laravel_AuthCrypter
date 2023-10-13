@@ -182,7 +182,7 @@
                                     @csrf
                                       <input name="role" type="hidden" value="{{$singleListing->role}}">
                                       <input name="user_id" name=""type="hidden" value="{{Auth::user()->id}}">
-                                      <input name="location" type="hidden" value="">
+                                      <input name="location" type="hidden" value="{{$singleListing->location}}">
                                       <input name="job_type" type="hidden" value="">
                                       <input name="description" type="hidden" value="">
                                       <input name="salary_range" type="hidden" value="">
