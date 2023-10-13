@@ -188,7 +188,7 @@
                                       <input name="salary_range" type="hidden" value="{{$singleListing->salary_range}}">
                                       <input name="yearly_salary" type="hidden" value="{{$singleListing->yearly_salary}}">
                                       <input name="no_vacancy" type="hidden" value="{{$singleListing->no_vacancy}}">
-                                      <input name="company" type="hidden" value="">
+                                      <input name="company" type="hidden" value="{{$singleListing->company}}">
                                       <input name="email" type="hidden" value="">
                                       <input name="company_description" type="hidden" value="">
                                       <input name="website" type="hidden" value="">
