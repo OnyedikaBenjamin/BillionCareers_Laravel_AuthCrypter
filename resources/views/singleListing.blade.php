@@ -192,13 +192,11 @@
                                       <input name="email" type="hidden" value="">
                                       <input name="company_description" type="hidden" value="">
                                       <input name="website" type="hidden" value="">
-                                      <input name="logo" type="hidden" value="">
-
-                      
-                                              
-                       <a href="#" class="btn btn-block btn-light btn-md" type="submit"><span class="icon-heart-o mr-2 text-danger"></span>Save Job</a>
+                                      <input name="logo" type="hidden" value="">                  
+                       <a class="btn btn-block btn-light btn-md" type="submit"><span class="icon-heart-o mr-2 text-danger">
+                        </span>Save Job</a>
                                   </form>
-                             
+
                             </div>
 
 
