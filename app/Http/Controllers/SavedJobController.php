@@ -7,6 +7,7 @@ use App\Models\SavedJob;
 use Illuminate\Http\Request;
 
 class SavedJobController extends Controller
+      SavedJobController
 {
     public function store_saved_jobs(Request $request)
     {
@@ -27,9 +28,9 @@ class SavedJobController extends Controller
             'logo' => $request->logo,
         ]);
         // $foundListing = 
-        // if($jobToSave){
+        if($jobToSave){
             return redirect('/listings');
-        // }
+        }
         // if ($request->hasFile('logo')) {
         //     $formFields['logo'] = $request->file('logo')->store('logos', 'public');
         // }
