@@ -183,8 +183,8 @@
                                       <input name="role" type="hidden" value="{{$singleListing->role}}">
                                       <input name="user_id" name=""type="hidden" value="{{Auth::user()->id}}">
                                       <input name="location" type="hidden" value="{{$singleListing->location}}">
-                                      <input name="job_type" type="hidden" value="{{$singleListing->}}">
-                                      <input name="description" type="hidden" value="">
+                                      <input name="job_type" type="hidden" value="{{$singleListing->job_type}}">
+                                      <input name="description" type="hidden" value="{{$singleListing->description}}">
                                       <input name="salary_range" type="hidden" value="">
                                       <input name="yearly_salary" type="hidden" value="">
                                       <input name="no_vacancy" type="hidden" value="">
