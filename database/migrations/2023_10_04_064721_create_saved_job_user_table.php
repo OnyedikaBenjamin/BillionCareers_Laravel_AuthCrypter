@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('saved_job_user', function (Blueprint $table) {
             $table->id();
             $table->string('role');
+            $table
             $table->foreignId('user_id')->constrained();
             $table->string('location');
             $table->string('job_type');
