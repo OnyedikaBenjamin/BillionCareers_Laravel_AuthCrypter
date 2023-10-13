@@ -17,12 +17,10 @@ class DatabaseSeeder extends Seeder
     {
 
          $user=User::factory()->create();
-         $category=Category::factory()->create();
 
 
          Listing::factory(10)->create([
             'user_id' => $user->id,
-            'category_id' =>$category->id
          ]);
 
 
