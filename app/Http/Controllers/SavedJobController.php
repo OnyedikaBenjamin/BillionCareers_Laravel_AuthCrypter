@@ -26,7 +26,6 @@ class SavedJobController extends Controller
             'website' => $request->website,
             'logo' => $request->logo,
         ]);
-        $foundMatchingListing = 
         if($jobToSave){
             return redirect('/listings');
         }

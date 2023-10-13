@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\Listing;
+use App\Models\SavedJob;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
 
 class ListingController extends Controller
 {
@@ -34,6 +36,10 @@ class ListingController extends Controller
         $relatedJobs = Listing::where('category', $singleListing->category)
         ->where('id', '!=','$id')
         ->take(4)->get();
+
+        $foundMatchingListing = SavedJob::where('listing_id', $id)
+        ->where('user_id', Auth::user()->id)
+        ->count();
         
         if ($singleListing) {
             return view('singleListing', compact('singleListing', 'relatedJobs'));
