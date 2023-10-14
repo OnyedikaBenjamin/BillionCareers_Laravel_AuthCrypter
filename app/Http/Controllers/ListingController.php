@@ -34,13 +34,12 @@ class ListingController extends Controller
     {
         $singleListing = Listing::find($id);
         $relatedJobs = Listing::where('category', $singleListing->category)
-        ->here('id', '!=','$id')
+        ->where('id', '!=','$id')
         ->take(4)->get();
 
         $foundMatchingListing = SavedJob::where('listing_id', $id)
         ->where('user_id', Auth::user()->id)
         ->count();
-        
         if ($singleListing) {
             return view('singleListing', compact('singleListing', 'relatedJobs', 'foundMatchingListing'));
         } else {
