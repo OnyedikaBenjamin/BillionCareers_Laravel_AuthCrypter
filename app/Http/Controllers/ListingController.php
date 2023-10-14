@@ -62,7 +62,7 @@ class ListingController extends Controller
         return view('jobupdated');
     }
 
-    public function storeListing(Request $request)
+    public function (Request $request)
     {
         // dd($request ->file('logo'));
         $formFields = $request->validate([
