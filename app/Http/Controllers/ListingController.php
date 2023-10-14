@@ -42,7 +42,7 @@ class ListingController extends Controller
         ->count();
         
         if ($singleListing) {
-            return view('singleListing', compact('singleListing', 'relatedJobs'));
+            return view('singleListing', compact('singleListing', 'relatedJobs', 'foundMatchingListing'));
         } else {
             abort('404');
         }
