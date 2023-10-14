@@ -50,7 +50,7 @@ class ListingController extends Controller
 
     public function createListing()
     {
-        
+        return view('create');
     }
 
     public function jobPostSuccessful()
