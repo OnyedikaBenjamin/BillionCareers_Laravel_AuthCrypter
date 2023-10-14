@@ -23,9 +23,9 @@ class ListingController extends Controller
     public function go_home(){
         return view('home');
     }
-    public function showAllListing()
+    public  showAllListing()
     {
-        $listingsselect()->take(4)->orderby('id', 'desc')->get();
+        $listings = Listing::select()->take(4)->orderby('id', 'desc')->get();
         $total_listings = Listing::all()->count(); 
         return view('listings', compact('listings', 'total_listings'));
     }
