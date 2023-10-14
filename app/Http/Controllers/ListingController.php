@@ -72,7 +72,7 @@ class ListingController extends Controller
             'description' => 'required',
             'salary_range' => 'required',
             'yearly_salary' => 'required',
-            'no_vacancy' => 'required',
+            '' => 'required',
             'company' => 'required',
             'email' => ['required', 'email'],
             'company_description' => 'required',
