@@ -32,7 +32,20 @@ class ListingController extends Controller
 
     public function showSingleListing($id)
     {
+        $singleListing = Listing::find($id);
+        $relatedJobs = Listing::where('category', $singleListing->category)
+        ->where('id', '!=','$id')
+        ->take(4)->get();
+
+        $foundMatchingListing = SavedJob::where('listing_id', $id)
+        ->where('user_id', Auth::user()->id)
+        ->count();
         
+        if ($singleListing) {
+            return view('singleListing', compact('singleListing', 'relatedJobs', 'foundMatchingListing'));
+        } else {
+            abort('404');
+        }
     }
 
     public function createListing()
