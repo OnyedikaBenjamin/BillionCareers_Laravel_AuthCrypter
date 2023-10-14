@@ -59,7 +59,7 @@ class ListingController extends Controller
     }
     public function jobPostUpdated()
     {
-        return view('jobupdated');
+         view('jobupdated');
     }
 
     public function storeListing(Request $request)
