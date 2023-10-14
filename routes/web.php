@@ -10,7 +10,7 @@ use Illuminate\Tests\Integration\Database\EloquentModelDateCastingTest\EloquentM
 
 //LISTINGS ROUTE
 Route::get('/', [ListingController::class, 'go_home']);
-Route::ge('/listings', [ListingController::class, 'showAllListing']);
+Route::get('/listings', [ListingController::class, 'showAllListing']);
 
 Route::get('/listings/{id}', [ListingController::class, 'showSingleListing'])->name('single.job');
 
