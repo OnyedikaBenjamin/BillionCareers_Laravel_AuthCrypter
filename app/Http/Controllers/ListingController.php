@@ -44,7 +44,7 @@ class ListingController extends Controller
         if ($singleListing) {
             return view('singleListing', compact('singleListing', 'relatedJobs', 'foundMatchingListing'));
         } else {
-            abort('404');
+            abort('404')
         }
     }
 
