@@ -191,9 +191,7 @@
                                       <input name="no_vacancy" type="hidden" value="{{$singleListing->no_vacancy}}">
                                       <input name="company" type="hidden" value="{{$singleListing->company}}">
                                       <input name="email" type="hidden" value="{{$singleListing->email}}">
-                                      <input name="company_description" type="hidden" value="{{$singleListing->company_description}}">
-                                      <input name="website" type="hidden" value="{{$singleListing->website}}">
-                                      <input name="logo" type="hidden" value="{{$singleListing->logo}}">                  
+                                      <input name="company_dvalue="{{$singleListing->logo}}">                  
                                       <button class="btn btn-block btn-light btn-md" type="submit"><span class="icon-heart-o mr-2 text-danger">
                                       </span>Save Job</button>
                                 </form>
