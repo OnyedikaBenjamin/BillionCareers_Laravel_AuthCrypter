@@ -29,10 +29,19 @@ class SavedJobController extends Controller
         ]);
 
         $singleListing = Listing::find($request->listing_id);
+
+        $foundMatchingListing = SavedJob::where('listing_id', $request->listing_id)
+        ->where('user_id', auth()->id())
+        ->count()>0;
         
+        $relatedJobs = Listing::where('category', $singleListing->category)
+        ->where('id', '!=','$id')
+        ->take(4)->get();
+
         if($jobToSave && $singleListing){
-            return view('singleListing', compact('singleListing'));
+            return view('singleListing', compact('singleListing', 'foundMatchingListing', 'relatedJobs'));
         }
+
 
     }
 }
