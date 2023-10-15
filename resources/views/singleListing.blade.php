@@ -178,8 +178,12 @@
                          <div class="row">
                             <div class="col-6">
                                 @auth
-                                @if ()
-                                    
+                                @if ($foundMatchingListing)
+                                <form method="GET"  action="/users/login" enctype="multipart/form-data">
+                                    @csrf
+                                      <button class="btn btn-block btn-light btn-md" type="submit"><span class="">
+                                      </span>Job Saved</button>
+                                </form>  
                                 @else
                                     
                                 @endif
