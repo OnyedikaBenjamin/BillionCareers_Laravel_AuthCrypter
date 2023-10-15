@@ -175,14 +175,14 @@
 
 
 
-                          @
+                          @auth
                          <div class="row">
                             <div class="col-6">
                                 <form method="POST" action="/savedjobs/create" enctype="multipart/form-data">
                                     @csrf
                                       <input name="role" type="hidden" value="{{$singleListing->role}}">
                                       <input name="listing_id" type="hidden" value="{{$singleListing->id}}">
-                                      <input name="user_id" name=""type="hidden" value="{{Auth::user()->id}}">
+                                      <input name="user_id" name=""type="hidden" value="{{auth()->id()}}">
                                       <input name="location" type="hidden" value="{{$singleListing->location}}">
                                       <input name="job_type" type="hidden" value="{{$singleListing->job_type}}">
                                       <input name="description" type="hidden" value="{{$singleListing->description}}">
@@ -198,6 +198,7 @@
                                       </span>Save Job</button>
                                 </form>
                             </div>
+
 
                             <div class="col-6">
                               <a href="#" class="btn btn-block btn-primary btn-md">Apply Now</a>
