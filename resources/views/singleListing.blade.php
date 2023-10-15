@@ -216,7 +216,6 @@
                                       <input name="logo" type="hidden" value="{{$singleListing->logo}}">                   --}}
                                       <button class="btn btn-block btn-light btn-md" type="submit"><span class="icon-heart-o mr-2 text-danger">
                                       </span>Save Job</button>
-                                </form>
                             </div>
                         @endauth
 
