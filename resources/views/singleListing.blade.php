@@ -174,7 +174,7 @@
                           </ul>
 
     
-@auth
+                        @auth
                          <div class="row">
                             <div class="col-6">
                                 <form method="POST" action="/savedjobs/create" enctype="multipart/form-data">
@@ -198,7 +198,28 @@
                                 </form>
                             </div>
                             @else
-                            <div>Hi</div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <form method="POST" action="/savedjobs/create" enctype="multipart/form-data">
+                                        @csrf
+                                          <input name="role" type="hidden" value="{{$singleListing->role}}">
+                                          <input name="listing_id" type="hidden" value="{{$singleListing->id}}">
+                                          <input name="user_id" name=""type="hidden" value="{{Auth::user()->id}}">
+                                          <input name="location" type="hidden" value="{{$singleListing->location}}">
+                                          <input name="job_type" type="hidden" value="{{$singleListing->job_type}}">
+                                          <input name="description" type="hidden" value="{{$singleListing->description}}">
+                                          <input name="salary_range" type="hidden" value="{{$singleListing->salary_range}}">
+                                          <input name="yearly_salary" type="hidden" value="{{$singleListing->yearly_salary}}">
+                                          <input name="no_vacancy" type="hidden" value="{{$singleListing->no_vacancy}}">
+                                          <input name="company" type="hidden" value="{{$singleListing->company}}">
+                                          <input name="email" type="hidden" value="{{$singleListing->email}}">
+                                          <input name="company_description" type="hidden" value="{{$singleListing->company_description}}">
+                                          <input name="website" type="hidden" value="{{$singleListing->website}}">
+                                          <input name="logo" type="hidden" value="{{$singleListing->logo}}">                  
+                                          <button class="btn btn-block btn-light btn-md" type="submit"><span class="icon-heart-o mr-2 text-danger">
+                                          </span>Save Job</button>
+                                    </form>
+                                </div>
 @endauth
 
                             <div class="col-6">
