@@ -200,9 +200,7 @@
                             @else
                             <div class="row">
                             <div class="col-6">
-                                <form method="POST" action="/savedjobs/create" enctype="multipart/form-data">
-                                    @csrf
-                                      <input name="role" type="hidden" value="{{$singleListing->role}}">
+                                      {{-- <input name="role" type="hidden" value="{{$singleListing->role}}">
                                       <input name="listing_id" type="hidden" value="{{$singleListing->id}}">
                                       <input name="user_id" name=""type="hidden" value="{{Auth::user()->id}}">
                                       <input name="location" type="hidden" value="{{$singleListing->location}}">
@@ -215,7 +213,7 @@
                                       <input name="email" type="hidden" value="{{$singleListing->email}}">
                                       <input name="company_description" type="hidden" value="{{$singleListing->company_description}}">
                                       <input name="website" type="hidden" value="{{$singleListing->website}}">
-                                      <input name="logo" type="hidden" value="{{$singleListing->logo}}">                  
+                                      <input name="logo" type="hidden" value="{{$singleListing->logo}}">                   --}}
                                       <button class="btn btn-block btn-light btn-md" type="submit"><span class="icon-heart-o mr-2 text-danger">
                                       </span>Save Job</button>
                                 </form>
