@@ -178,6 +178,11 @@
                          <div class="row">
                             <div class="col-6">
                                 @auth
+                                @if ()
+                                    
+                                @else
+                                    
+                                @endif
                                 <form method="POST" action="/savedjobs/create" enctype="multipart/form-data">
                                     @csrf
                                       <input name="role" type="hidden" value="{{$singleListing->role}}">
