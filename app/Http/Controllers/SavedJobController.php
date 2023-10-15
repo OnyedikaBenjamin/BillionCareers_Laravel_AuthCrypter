@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
+use App\Models\Listing;
 use App\Models\SavedJob;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class SavedJobController extends Controller
 {
@@ -26,11 +27,12 @@ class SavedJobController extends Controller
             'website' => $request->website,
             'logo' => $request->logo,
         ]);
-        if($jobToSave){
-            return redirect('/listings/');
+
+        $singleListing = Listing::find($request->listing_id);
+        
+        if($jobToSave && $singleListing){
+            return view('singleListing', compact('singleListing'));
         }
-        // if ($request->hasFile('logo')) {
-        //     $formFields['logo'] = $request->file('logo')->store('logos', 'public');
-        // }
+
     }
 }
