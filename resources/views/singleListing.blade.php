@@ -198,26 +198,7 @@
                                 </form>
                             </div>
                             @else
-                            <div class="row">
-                            <div class="col-6">
-                                      {{-- <input name="role" type="hidden" value="{{$singleListing->role}}">
-                                      <input name="listing_id" type="hidden" value="{{$singleListing->id}}">
-                                      <input name="user_id" name=""type="hidden" value="{{Auth::user()->id}}">
-                                      <input name="location" type="hidden" value="{{$singleListing->location}}">
-                                      <input name="job_type" type="hidden" value="{{$singleListing->job_type}}">
-                                      <input name="description" type="hidden" value="{{$singleListing->description}}">
-                                      <input name="salary_range" type="hidden" value="{{$singleListing->salary_range}}">
-                                      <input name="yearly_salary" type="hidden" value="{{$singleListing->yearly_salary}}">
-                                      <input name="no_vacancy" type="hidden" value="{{$singleListing->no_vacancy}}">
-                                      <input name="company" type="hidden" value="{{$singleListing->company}}">
-                                      <input name="email" type="hidden" value="{{$singleListing->email}}">
-                                      <input name="company_description" type="hidden" value="{{$singleListing->company_description}}">
-                                      <input name="website" type="hidden" value="{{$singleListing->website}}">
-                                      <input name="logo" type="hidden" value="{{$singleListing->logo}}">                   --}}
-                                      <button href= class="btn btn-block btn-light btn-md"><span class="icon-heart-o mr-2 text-danger">
-                                      </span>Save Job</a>
-                            </div>
-                            </div>
+                            
                         @endauth
 
                             <div class="col-6">
