@@ -174,9 +174,10 @@
                           </ul>
 
     
-                        @auth
+                        
                          <div class="row">
                             <div class="col-6">
+                                @auth
                                 <form method="POST" action="/savedjobs/create" enctype="multipart/form-data">
                                     @csrf
                                       <input name="role" type="hidden" value="{{$singleListing->role}}">
