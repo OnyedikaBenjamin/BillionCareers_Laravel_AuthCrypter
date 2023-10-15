@@ -198,7 +198,7 @@
                                       </span>Save Job</button>
                                 </form>
                                 @else
-                                <form method="GET" action="/savedjobs/create" enctype="multipart/form-data">
+                                <form action="/savedjobs/create" enctype="multipart/form-data">
                                       <button class="btn btn-block btn-light btn-md" type="submit"><span class="icon-heart-o mr-2 text-danger">
                                       </span>Save Job</button>
                                 </form>
