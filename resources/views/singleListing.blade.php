@@ -179,7 +179,7 @@
                             <div class="col-6">
                             @auth
                                 @if ($foundMatchingListing)
-                                <form method="GET"  action="/users/login" enctype="multipart/form-data">
+                                <form method="GET"  action="/listings/{{}}" enctype="multipart/form-data">
                                     @csrf
                                       <button class="btn btn-block btn-light btn-md" ><span >
                                       </span>Job Saved</button>
