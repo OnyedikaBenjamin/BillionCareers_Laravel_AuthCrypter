@@ -41,7 +41,7 @@ class ListingController extends Controller
         ->where('user_id', auth()->id())
         ->count();
         
-        if ($singleListing && ) {
+        if ($singleListing) {
             return view('singleListing', compact('singleListing', 'relatedJobs', 'foundMatchingListing'));
         } else {
             abort('404');

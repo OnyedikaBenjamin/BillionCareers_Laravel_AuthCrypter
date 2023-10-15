@@ -175,7 +175,7 @@
 
 
 
-
+                          @
                          <div class="row">
                             <div class="col-6">
                                 <form method="POST" action="/savedjobs/create" enctype="multipart/form-data">
