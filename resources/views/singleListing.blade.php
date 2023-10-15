@@ -215,7 +215,7 @@
                                       <input name="website" type="hidden" value="{{$singleListing->website}}">
                                       <input name="logo" type="hidden" value="{{$singleListing->logo}}">                   --}}
                                       <button href= class="btn btn-block btn-light btn-md"><span class="icon-heart-o mr-2 text-danger">
-                                      </span>Save Job</butto>
+                                      </span>Save Job</butt>
                             </div>
                         @endauth
 
