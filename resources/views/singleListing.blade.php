@@ -181,13 +181,11 @@
                                 @if ($foundMatchingListing)
                                 <form method="GET"  action="/users/login" enctype="multipart/form-data">
                                     @csrf
-                                      <button class="btn btn-block btn-light btn-md" type="submit"><span class="">
+                                      <button class="btn btn-block btn-light btn-md" ><span class="">
                                       </span>Job Saved</button>
                                 </form>  
                                 @else
-                                    
-                                @endif
-                                <form method="POST" action="/savedjobs/create" enctype="multipart/form-data">
+                                    <form method="POST" action="/savedjobs/create" enctype="multipart/form-data">
                                     @csrf
                                       <input name="role" type="hidden" value="{{$singleListing->role}}">
                                       <input name="listing_id" type="hidden" value="{{$singleListing->id}}">
@@ -206,6 +204,8 @@
                                       <button class="btn btn-block btn-light btn-md" type="submit"><span class="icon-heart-o mr-2 text-danger">
                                       </span>Save Job</button>
                                 </form>
+                                @endif
+                                
                                 @else
                                 <form method="GET"  action="/users/login" enctype="multipart/form-data">
                                     @csrf
