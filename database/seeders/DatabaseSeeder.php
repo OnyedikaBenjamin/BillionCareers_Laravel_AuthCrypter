@@ -19,7 +19,7 @@ class DatabaseSeeder extends Seeder
          $user=User::factory()->create();
 
 
-         Listing::factory(10)->create([
+         Listing::factory(20)->create([
             'user_id' => $user->id,
          ]);
 
