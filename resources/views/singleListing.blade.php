@@ -206,7 +206,7 @@
                                 </form>
                                 @endif
                                 
-                                @else
+                            @else
                                 <form method="GET"  action="/users/login" enctype="multipart/form-data">
                                     @csrf
                                       <button class="btn btn-block btn-light btn-md" type="submit"><span class="icon-heart-o mr-2 text-danger">
@@ -219,9 +219,7 @@
                             </div>
 
 
-                            <div class="col-6">
-                              <a href="#" class="btn btn-block btn-primary btn-md">Apply Now</a>
-                            </div>
+                            
 
                           </div>
                        </div>
