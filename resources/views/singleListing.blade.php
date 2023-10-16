@@ -205,9 +205,6 @@
                                       </span>Save Job</button>
                                 </form>
                                 @endif
-                                <div class="col-6">
-                                    <a href="#" class="btn btn-block btn-primary btn-md">Apply Now</a>
-                                  </div>
                                 
                             @else
                                 <form method="GET"  action="/users/login" enctype="multipart/form-data">
@@ -222,7 +219,9 @@
                             </div>
 
 
-                            
+                            <div class="col-6">
+                              <a href="#" class="btn btn-block btn-primary btn-md">Apply Now</a>
+                            </div>
 
                           </div>
                        </div>
