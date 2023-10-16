@@ -215,10 +215,14 @@
                             @endauth
                             </div>
 
+                            @auth
 
+                            @else
                             <div class="col-6">
                               <a href="#" class="btn btn-block btn-primary btn-md">Apply Now</a>
                             </div>
+                            @endauth
+                            
 
                           </div>
                        </div>
