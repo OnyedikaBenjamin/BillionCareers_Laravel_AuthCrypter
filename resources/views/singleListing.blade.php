@@ -219,6 +219,9 @@
                             </div>
 
 
+                            <div class="col-6">
+                              <a href="#" class="btn btn-block btn-primary btn-md">Apply Now</a>
+                            </div>
 
                           </div>
                        </div>
