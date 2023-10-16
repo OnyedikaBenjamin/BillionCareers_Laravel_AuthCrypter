@@ -219,12 +219,7 @@
                             </div>
 
 
-                            <div class="col-6">
-                              <a href="#" class="btn btn-block btn-primary btn-md">Apply Now</a>
-                            </div>
-
-                          </div>
-                       </div>
+                 
                         <div class="post-details4  mb-50">
                             <!-- Small Section Tittle -->
                            <div class="small-section-tittle">
