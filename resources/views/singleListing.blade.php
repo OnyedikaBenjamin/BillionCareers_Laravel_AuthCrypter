@@ -208,6 +208,7 @@
                                 <div class="col-6">
                                     <a href="#" class="btn btn-block btn-primary btn-md">Apply Now</a>
                                   </div>
+                                </div>
                                 
                             @else
                                 <form method="GET"  action="/users/login" enctype="multipart/form-data">
