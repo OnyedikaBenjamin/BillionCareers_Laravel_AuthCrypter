@@ -222,8 +222,6 @@
                                 <a href="#" class="btn btn-block btn-primary btn-md">Apply Now</a>
                               </div>
 
-
-
                               
                             @else
                             <div class="col-6">
@@ -235,7 +233,7 @@
 
 
 
-                            
+
                           </div>
                        </div>
                         <div class="post-details4  mb-50">
