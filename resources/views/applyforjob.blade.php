@@ -68,7 +68,7 @@
                 <a href="job-listings.html" class="active">Job Listings</a>
                 <ul class="dropdown"
                   <li><a href="job-single.html">Job Single</a></li>
-                  <li><a href="post-job.html" class="active">Post a Job</a></li>
+                  <li><a href="post-job.html" class="activ>Post a Job</a></li>
                 </ul>
               </li>
               <li class="has-children">
