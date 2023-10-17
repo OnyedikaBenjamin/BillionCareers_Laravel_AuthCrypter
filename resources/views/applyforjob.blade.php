@@ -71,7 +71,7 @@
                   <li><a href="post-job.html" class=tiv>Post a Job</a></li>
                 </ul>
               </li>
-              <li class="has-children">
+              <li class="has-">
                 <a href="services.html">Pages</a>
                 <ul class="dropdown">
                   <li><a href="services.html">Services</a></li>
