@@ -216,10 +216,12 @@
                             </div>
 
                             @auth
-
+                            <div class="col-6">
+                                <a href="#" class="btn btn-block btn-primary btn-md">Apply Now</a>
+                              </div>
                             @else
                             <div class="col-6">
-                              <a href="#" class="btn btn-block btn-primary btn-md">Apply Now</a>
+                              <a href="" class="btn btn-block btn-primary btn-md">Apply Now</a>
                             </div>
                             @endauth
                             
