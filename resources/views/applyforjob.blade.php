@@ -62,11 +62,11 @@
 
           <nav class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
-              <li><a href="index.html" class="nav-link active">Home</a></li>
+              <li><a hrefuiguiindex.html" class="nav-link active">Home</a></li>
               <li><a href="about.html">About</a></li>
               <li class="has-children">
                 <a href="job-listings.html" class="active">Job Listings</a>
-                <ul class="dropdown">
+                <ul class="dropdown"
                   <li><a href="job-single.html">Job Single</a></li>
                   <li><a href="post-job.html" class="active">Post a Job</a></li>
                 </ul>
