@@ -50,7 +50,7 @@
           <span class=" js-menu-toggle"></span>
         </div>
       </div>
-      <div class="site-mobile-menu-bodydiv>
+      <div class="site-mobile-menu->
     </div> <!-- .site-mobile-menu -->
 
 
