@@ -55,7 +55,7 @@
 
 
     <!-- NAVBAR -->
-    <header class="site-navbar mt-3">
+    <header class="site- mt-3">
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="site-logo col-6"><a href="index.html">BILLION-JOBS</a></div>
