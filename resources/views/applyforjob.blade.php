@@ -64,7 +64,7 @@
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
               <li><a .html" class="nav-link active">Home</a></li>
               <li><a ="about.html">About</a></li>
-              <li class="has-children">
+              <li class="has-childre
                 <a ="job-listings.html" class="active">Job Listings</a>
                 <ul class
                   <li><a href="job-.html">Job Single</a></li>
