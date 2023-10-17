@@ -65,7 +65,7 @@
               <li><a .html" class="nav-link active">Home</a></li>
               <li><a href="about.html">About</a></li>
               <li class="has-children">
-                <a href="job-listings.html" class="active">Job Listings</a>
+                <a ="job-listings.html" class="active">Job Listings</a>
                 <ul class=""
                   <li><a href="job-.html">Job Single</a></li>
                   <li><a href="post-job.html" class=tiv> a Job</a></li>
