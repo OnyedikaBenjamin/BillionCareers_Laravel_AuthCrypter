@@ -47,31 +47,31 @@
     <div class="site-mobile-menu site-navbar-target">
       <div class="site-mobile-menu-header">
         <div class="site-mobile-menu-close mt-3">
-          <span class=" js-menu-toggle"></span>
+          <span class="icon-close2 js-menu-toggle"></span>
         </div>
       </div>
-      <div class="site-mobile-menu->
+      <div class="site-mobile-menu-body"></div>
     </div> <!-- .site-mobile-menu -->
 
 
-    <!--  -->
-    <header class="- mt-3">
-      <div class="contaier-fluid">
+    <!-- NAVBAR -->
+    <header class="site-navbar mt-3">
+      <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="site- col-6"><a ="index.html">BILLION-JOBS</a></div>
+          <div class="site-logo col-6"><a href="index.html">BILLION-JOBS</a></div>
 
-          <nav class="mx- site-navigation">
+          <nav class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
-              <li><a .html" class="nav-link active">Home</a></li>
-              <li><a ="about.html">About</a></li>
-              <li class="has-childre
-                <a ="job-listings.html" class="active">Job Listings</a>
-                <ul class
-                  <li><a href="job-.html">Job Single</a></li>
-                  <li><a href="post-job.html" class=tiv> a Job</a></li>
+              <li><a href="index.html" class="nav-link active">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li class="has-children">
+                <a href="job-listings.html" class="active">Job Listings</a>
+                <ul class="dropdown">
+                  <li><a href="job-single.html">Job Single</a></li>
+                  <li><a href="post-job.html" class="active">Post a Job</a></li>
                 </ul>
               </li>
-              <li class="has-">
+              <li class="has-children">
                 <a href="services.html">Pages</a>
                 <ul class="dropdown">
                   <li><a href="services.html">Services</a></li>
