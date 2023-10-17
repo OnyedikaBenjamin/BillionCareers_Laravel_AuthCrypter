@@ -60,7 +60,7 @@
         <div class="row align-items-center">
           <div class="site- col-6"><a ="index.html">BILLION-JOBS</a></div>
 
-          <nav class="mx-auto site-navigation">
+          <nav class="mx- site-navigation">
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
               <li><a .html" class="nav-link active">Home</a></li>
               <li><a ="about.html">About</a></li>
