@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\JobApplicationController;
 use App\Models\Listing;
 use Psy\Command\WhereamiCommand;
 use Illuminate\Support\Facades\Route;
@@ -53,7 +54,7 @@ Route::delete('/categories/{category}', [CategoryController::class, 'destroy'])-
 
 Route::post('/savedjobs/create', [SavedJobController::class, 'store_saved_jobs']);
 
-Route::get('job/apply', [SavedJobController::class, 'store_saved_jobs']);
+Route::get('job/apply', [JobApplicationController::class, 'store_saved_jobs']);
 
 // Route::get('/giging', function(){
 //     return response('<h1>Omo today na giging oo</h1>');
