@@ -63,11 +63,11 @@
       <div class="container">
         <div class="row">
           <div class="col-md-7">
-            <h1 class="text-white font-weight-bold">Post A Job</h1>
+            <h1 class="text-white font-weight-bold">Secure your job now</h1>
             <div class="custom-breadcrumbs">
               <a href="#">Home</a> <span class="mx-2 slash">/</span>
               <a href="#">Job</a> <span class="mx-2 slash">/</span>
-              <span class="text-white"><strong>Post a Job</strong></span>
+              <span class="text-white"><strong>Apply for Job</strong></span>
             </div>
           </div>
         </div>
