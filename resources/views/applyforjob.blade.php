@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>JobBoard &mdash; Website Template by Colorlib</title>
+  <title>BILLION-JOBS &mdash; get your job now</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="manifest" href="site.webmanifest">
