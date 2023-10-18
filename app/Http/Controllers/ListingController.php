@@ -39,7 +39,7 @@ class ListingController extends Controller
 
         $foundMatchingListing = SavedJob::where('listing_id', $id)
         ->where('user_id', auth()->id())
-        ->count()>0;
+        ->count()>0
         
         if ($singleListing) {
             return view('singleListing', compact('singleListing', 'relatedJobs', 'foundMatchingListing'));
