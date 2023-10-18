@@ -35,7 +35,7 @@ class ListingController extends Controller
         $singleListing = Listing::find($id);
         $relatedJobs = Listing::where('category', $singleListing->category)
         ->where('id', '!=','$id')
-        ->take(4)->get();
+        ->take(4)->get()
 
         $foundMatchingListing = SavedJob::where('listing_id', $id)
         ->where('user_id', auth()->id())
