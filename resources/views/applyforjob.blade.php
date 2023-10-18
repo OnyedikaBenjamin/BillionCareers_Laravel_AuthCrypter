@@ -59,7 +59,7 @@
 
     <!-- HOME -->
     <section class="section-hero overlay inner-page bg-image"
-      style="background-image: url('assets/img/hero/hero_1.jpg');" id="home-section">
+      data-background="assets/img/hero/about.jpg"" id="home-section">
       <div class="container">
         <div class="row">
           <div class="col-md-7">
