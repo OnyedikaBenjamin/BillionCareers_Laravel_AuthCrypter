@@ -214,26 +214,21 @@
                                 </form>
                             @endauth
                             </div>
-
-
-
+                            {{--  --}}
+                            <div class="col-6">
                             @auth
-                            <div class="col-6">
-                                <a href="#" class="btn btn-block btn-primary btn-md">Apply Now</a>
-                              </div>
-
-                              
+                            <form method="GET" action="/job/apply" enctype="multipart/form-data">
+                                @csrf
+                                <button type="submit" class="btn btn-block btn-primary btn-md">Apply Now</button>
+                            </form>
                             @else
-                            <div class="col-6">
-                              <a href="" class="btn btn-block btn-primary btn-md">Apply Now</a>
-                            </div>
+                            <form method="GET"  action="/users/login" enctype="multipart/form-data">
+                                @csrf
+                                    <button type="submit" class="btn btn-block btn-primary btn-md">Apply Now</button>
+                            </form>
                             @endauth
-                            
-
-
-
-
-
+                             </div>
+{{--  --}}
                           </div>
                        </div>
                         <div class="post-details4  mb-50">

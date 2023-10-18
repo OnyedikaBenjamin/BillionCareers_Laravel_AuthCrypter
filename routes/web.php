@@ -36,7 +36,7 @@ Route::post('users/register', [UserController::class, 'createUser']);
 
 Route::post('/logout', [UserController::class, 'logout'])->middleware('auth');
 
-Route::get('/users/login', [UserController::class, 'login'])->middleware('guest');;
+Route::get('/users/login', [UserController::class, 'login'])->middleware('guest');
 Route::post('/users/authenticate', [UserController::class, 'authenticate_user']);
 
 Route::get('/manage', [ListingController::class, 'manageListing']);
@@ -53,9 +53,14 @@ Route::delete('/categories/{category}', [CategoryController::class, 'destroy'])-
 
 
 Route::post('/savedjobs/create', [SavedJobController::class, 'store_saved_jobs']);
+Route::get('/users/login2', [JobApplicationController::class, 'login'])->middleware('guest');
+Route::post('/users/login2', [JobApplicationController::class, 'login'])->middleware('guest');
+
 
 Route::get('job/apply', [JobApplicationController::class, 'application_page']);
 Route::post('job/apply', [JobApplicationController::class, 'save_application']);
+
+
 
 // Route::get('/giging', function(){
 //     return response('<h1>Omo today na giging oo</h1>');
