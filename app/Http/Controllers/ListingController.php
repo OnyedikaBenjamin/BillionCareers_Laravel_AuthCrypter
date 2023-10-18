@@ -20,17 +20,17 @@ class ListingController extends Controller
     //     return view('listings', compact('listings'));
     // }
 
-    public functiongo_home(){
+    public function go_home(){
         return view('home');
     }
     public function showAllListing()
     {
         $listings = Listing::select()->take(10)->orderby('id', 'desc')->get();
-        $total_listings = Listng::all()->count(); 
+        $total_listings = Listing::all()->count(); 
         return view('listings', compact('listings', 'total_listings'));
     }
 
-    public function showSinleListing($id)
+    public function showSingleListing($id)
     {
         $singleListing = Listing::find($id);
         $relatedJobs = Listing::where('category', $singleListing->category)
@@ -39,7 +39,7 @@ class ListingController extends Controller
 
         $foundMatchingListing = SavedJob::where('listing_id', $id)
         ->where('user_id', auth()->id())
-        ->count()>0
+        ->count()>0;
         
         if ($singleListing) {
             return view('singleListing', compact('singleListing', 'relatedJobs', 'foundMatchingListing'));
