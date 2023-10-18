@@ -55,6 +55,7 @@ Route::delete('/categories/{category}', [CategoryController::class, 'destroy'])-
 Route::post('/savedjobs/create', [SavedJobController::class, 'store_saved_jobs']);
 
 Route::get('job/apply', [JobApplicationController::class, 'store_saved_jobs']);
+Route::get('job/apply', [JobApplicationController::class, 'store_saved_jobs']);
 
 // Route::get('/giging', function(){
 //     return response('<h1>Omo today na giging oo</h1>');
