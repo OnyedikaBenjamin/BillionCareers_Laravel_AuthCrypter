@@ -20,7 +20,7 @@ class ListingController extends Controller
     //     return view('listings', compact('listings'));
     // }
 
-    public function go_home(){
+    public functiongo_home(){
         return view('home');
     }
     public function showAllListing()
