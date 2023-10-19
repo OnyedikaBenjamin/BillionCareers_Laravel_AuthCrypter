@@ -35,7 +35,7 @@ class UserController extends Controller
     }
 
     public function login(){
-        return view('login');
+        return view('logn');
     }
     public function authenticate_user(Request $request){
         $formfields = $request->validate([
