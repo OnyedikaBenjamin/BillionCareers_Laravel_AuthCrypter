@@ -23,7 +23,7 @@ class ListingController extends Controller
     public function go_home(){
         return view('home');
     }
-    public fnction showAllListing()
+    public function showAllListing()
     {
         $listings = Listing::select()->take(10)->orderby('id', 'desc')->get();
         $total_listings = Listing::all()->count(); 
