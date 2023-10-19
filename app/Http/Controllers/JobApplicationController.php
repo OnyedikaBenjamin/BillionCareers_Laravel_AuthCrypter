@@ -9,5 +9,6 @@ class JobApplicationController extends Controller
 {
     public function application_page(){
         return view('applyforjob');
-    
+    }
+
 }
