@@ -1,13 +1,13 @@
 <?php
 
+use App\Http\Controllers\JobApplicationController;
 use App\Models\Listing;
 use Psy\Command\WhereamiCommand;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ListingController;
-use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\SavedJobController;
-use App\Http\Controllers\JobApplicationController;
+use App\Http\Controllers\CategoryController;
 
 //LISTINGS ROUTE
 Route::get('/', [ListingController::class, 'go_home']);
@@ -38,7 +38,7 @@ Route::post('users/register', [UserController::class, 'createUser']);
 Route::post('/logout', [UserController::class, 'logout'])->middleware('auth');
 
 Route::get('/users/login', [UserController::class, 'login'])->middleware('guest');
-Route::post('/users/authenicate', [UserController::class, 'authenticate_user']);
+Route::post('/users/authenticate', [UserController::class, 'authenticate_user']);
 
 Route::get('/manage', [ListingController::class, 'manageListing']);
 
