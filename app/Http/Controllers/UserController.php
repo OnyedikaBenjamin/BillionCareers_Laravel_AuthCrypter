@@ -48,7 +48,7 @@ class UserController extends Controller
             $request->session()->regenerate();
             return redirect('/');
         }
-        return back()->witErrors(['email' => 'Invalid Credentials'])->onlyInput('email');
+        return back()->withErrors(['email' => 'Invalid Credentials'])->onlyInput('email');
     }
 
     public function savedJobs()
