@@ -27,7 +27,7 @@ class ListingController extends Controller
     {
         $listings = Listing::select()->take(10)->orderby('id', 'desc')->get();
         $total_listings = Listing::all()->count(); 
-        retun view('listings', compact('listings', 'total_listings'));
+        return view('listings', compact('listings', 'total_listings'));
     }
 
     public function showingleListing($id)
