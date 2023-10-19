@@ -30,7 +30,7 @@ class ListingController extends Controller
         return view('listings', compact('listings', 'total_listings'));
     }
 
-    public function showingleListing($id)
+    public function showSingleListing($id)
     {
         $singleListing = Listing::find($id);
         $relatedJobs = Listing::where('category', $singleListing->category)
