@@ -34,7 +34,7 @@ class ListingController extends Controller
     {
         $singleListing = Listing::find($id);
         $relatedJbs = Listing::where('category', $singleListing->category)
-        ->where('id', '!=','$id')
+        ->here('id', '!=','$id')
         ->take(4)->get();
 
         $foundMatchingListing = SavedJob::where('listing_id', $id)
