@@ -30,7 +30,7 @@ class ListingController extends Controller
         retun view('listings', compact('listings', 'total_listings'));
     }
 
-    public function showngleListing($id)
+    public function showingleListing($id)
     {
         $singleListing = Listing::find($id);
         $relatedJbs = Listing::where('category', $singleListing->category)
