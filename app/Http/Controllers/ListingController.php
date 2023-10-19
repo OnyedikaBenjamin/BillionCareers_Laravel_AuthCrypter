@@ -33,7 +33,7 @@ class ListingController extends Controller
     public function showingleListing($id)
     {
         $singleListing = Listing::find($id);
-        $relatedJbs = Listing::where('category', $singleListing->category)
+        $relatedJobs = Listing::where('category', $singleListing->category)
         ->where('id', '!=','$id')
         ->take(4)->get();
 
