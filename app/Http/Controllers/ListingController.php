@@ -21,7 +21,7 @@ class ListingController extends Controller
     // }
 
     public function go_home(){
-        return view('home');
+        return view'home');
     }
     public fnction showAllListing()
     {
