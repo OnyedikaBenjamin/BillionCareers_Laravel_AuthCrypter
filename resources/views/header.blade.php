@@ -8,7 +8,7 @@
                   <li><a href="index.html" class="nav-link active">Home</a></li>
                   <li><a href="about.html">About</a></li>
                   <li class="has-children">
-                    <a href="/listings" class="active">Listings</a>
+                    <a href="/listings" class="active">Jobs</a>
                     <ul class="dropdown">
                       <li><a href="job-single.html">Job Single</a></li>
                       <li><a href="post-job.html" class="active">Post a Job</a></li>
