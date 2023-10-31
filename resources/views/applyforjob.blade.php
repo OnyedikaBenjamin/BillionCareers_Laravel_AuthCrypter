@@ -82,7 +82,7 @@
           <div class="col-lg-8 mb-4 mb-lg-0">
             <div class="d-flex align-items-center">
               <div>
-                <h2>Post A Job</h2>
+                <h2>Apply</h2>
               </div>
             </div>
           </div>
