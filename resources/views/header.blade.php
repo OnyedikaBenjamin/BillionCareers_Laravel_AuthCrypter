@@ -10,7 +10,7 @@
                   <li class="has-children">
                     <a href="/listings" class="active">Jobs</a>
                     <ul class="dropdown">
-                      <li><a href="job-single.html">View all Jobs</a></li>
+                      <li><a href="">View all Jobs</a></li>
                       <li><a href="post-job.html" class="active">Post a Job</a></li>
                     </ul>
                   </li>
