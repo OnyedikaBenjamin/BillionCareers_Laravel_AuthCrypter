@@ -114,14 +114,14 @@
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                                          </div>
                                      </div>
-                                     <div class="col-xl-2 col-lg-2">
+                                     {{-- <div class="col-xl-2 col-lg-2"> --}}
                                          <div class="footer-social f-right">
                                              <a href="#"><i class="fab fa-facebook-f"></i></a>
                                              <a href="#"><i class="fab fa-twitter"></i></a>
                                              <a href="#"><i class="fas fa-globe"></i></a>
                                              <a href="#"><i class="fab fa-behance"></i></a>
                                          </div>
-                                     </div>
+                                     {{-- </div> --}}
                                  </div>
                             </div>
                         </div>
