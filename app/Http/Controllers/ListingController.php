@@ -113,7 +113,6 @@ class ListingController extends Controller
             'website' => 'required',
             'logo' => 'required'
         ]);
-
         if ($request->hasFile('logo')) {
             $formFields['logo'] = $request->file('logo')->store('logos', 'public');}
         $listing->update($formFields);
@@ -130,7 +129,7 @@ class ListingController extends Controller
     }
     public function showRelatedJobs($id){
         $listing = Listing::find($id);
-
+    
         $relatedJobs = Listing::where('category', $listing->category)
         ->where('id', '!=','$id')->take(4)->get();
         return $relatedJobs;

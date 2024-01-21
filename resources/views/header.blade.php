@@ -10,8 +10,12 @@
                   <li class="has-children">
                     <a href="/listings" class="active">Jobs</a>
                     <ul class="dropdown">
-                      <li><a href="">View all Jobs</a></li>
-                      <li><a href="post-job.html" class="active">Post a Job</a></li>
+                      <li><a href="/listings">View all Jobs</a></li>
+                      @auth
+                      <li><a href="/create" class="active">Post a Job</a></li>
+                      @else
+                      <li><a href="/users/login" class="active">Post a Job</a></li>
+                      @endauth
                     </ul>
                   </li>
                   <li><a href="blog.html">Blog</a></li>
