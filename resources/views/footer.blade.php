@@ -26,7 +26,7 @@
                                                     here, your demo address.</p>
                                                 </li>
                                                 <li><a href="#">Phone : +2349130946146</a></li>
-                                                <li><a href="#">Email : udegbunamonyedikabenjamin@gmail.com</a></li>
+                                                <li><a href="#">Email : benjamin@gmail.com</a></li>
                                             </ul>
                                         </div>
             
