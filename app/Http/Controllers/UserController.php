@@ -26,14 +26,12 @@ class UserController extends Controller
         auth()->login($user);
         return redirect('/')->with('message', 'Account created successfully');
     }
-
     public function logout(Request $request){
         auth()->logout();
         $request->session()->invalidate();
         $request->session()->regenerateToken();
         return redirect('/');
     }
-
     public function login(){
         return view('login');
     }
