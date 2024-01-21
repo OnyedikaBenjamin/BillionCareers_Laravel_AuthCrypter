@@ -77,8 +77,7 @@
                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                                       <!-- logo -->
                                       <div class="footer-logo mb-20">
-                                        {{-- <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a> --}}
-                                        <a href="index.html">Billion-Jobs</a>
+                                        <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
                                       </div>
                                    </div>
                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
