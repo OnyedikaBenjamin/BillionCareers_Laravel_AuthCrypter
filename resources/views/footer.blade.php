@@ -22,7 +22,7 @@
                                             <h4>Contact Info</h4>
                                             <ul>
                                                 <li>
-                                                <p>312 Herbert Mercauly way, Yaba Lagos</p>
+                                                <p>312 Herbert Mercauly way, Yaba Lagos.</p>
                                                 </li>
                                                 <li><a href="#">Phone : +2349130946146</a></li>
                                                 <li><a href="#">Email : benjamin@gmail.com</a></li>
