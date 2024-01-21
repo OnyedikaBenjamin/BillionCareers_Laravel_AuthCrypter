@@ -9,7 +9,7 @@
                                          <div class="footer-tittle">
                                              <h4>About Us</h4>
                                              <div class="footer-pera">
-                                                 <p>Heaven frucvitful doesn't cover lesser dvsays appear creeping seasons so behold.</p>
+                                                 <p>Empowering careers, connecting talents. We match skills with opportunities, fostering growth and success for all.</p>
                                             </div>
                                          </div>
                                      </div>
@@ -50,7 +50,7 @@
                                         <div class="footer-tittle">
                                             <h4>Newsletter</h4>
                                             <div class="footer-pera footer-pera2">
-                                             <p>Heaven fruitful doesn't over lesser in days. Appear creeping.</p>
+                                             <p>Billion Jobs match skills with opportunities, fostering growth and success for all.</p>
                                          </div>
                                          <!-- Form -->
                                          <div class="footer-form" >
