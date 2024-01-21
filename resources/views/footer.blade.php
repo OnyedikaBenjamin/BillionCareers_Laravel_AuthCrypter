@@ -83,20 +83,20 @@
                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
                                     <div class="footer-tittle-bottom">
                                         <span>5000+</span>
-                                        <p>Talented Hunter</p>
+                                        <p>Recruiters</p>
                                     </div>
                                    </div>
                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
                                         <div class="footer-tittle-bottom">
                                             <span>451</span>
-                                            <p>Talented Hunter</p>
+                                            <p>Talented Hunters</p>
                                         </div>
                                    </div>
                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
                                         <!-- Footer Bottom Tittle -->
                                         <div class="footer-tittle-bottom">
                                             <span>568</span>
-                                            <p>Talented Hunter</p>
+                                            <p>Jobs Secured</p>
                                         </div>
                                    </div>
                            </div>
