@@ -21,7 +21,6 @@ class UserController extends Controller
         $formfields['password'] = bcrypt($formfields['password']);
         $user = User::create($formfields);
         auth()->login($user);
-        
         return redirect('/')->with('message', 'Account created successfully');
     }
     public function logout(Request $request){
