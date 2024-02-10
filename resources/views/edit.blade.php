@@ -173,6 +173,7 @@
                 <p class="text-red-500">{{$message}}</p>
                 @enderror
               </div>
+
               <div class="form-group">
                 <label for="job-type">Job Type</label>
                 <select class="selectpicker border rounded" name="job_type" id="job-type" data-style="btn-black"
