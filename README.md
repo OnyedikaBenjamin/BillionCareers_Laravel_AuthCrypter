@@ -14,7 +14,8 @@ Billion Careers is a Laravel project showcasing the integration of Bootstrap for
 
 ## Features
 
-- **Configuration**: Demonstrates configuration management in Laravel.
+- **Clean MVC Architecture**
+- **Configuration**
 - **Storing Passwords**: Securely store passwords using Laravel's built-in encryption features.
 - **Authenticating Users**: Authenticate users with ease using Laravel's authentication system.
 - **Manually Logging In Users**: Learn how to manually log in users when needed.
