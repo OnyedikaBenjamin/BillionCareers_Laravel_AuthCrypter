@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## Welcome to Billion Careers
+## Welcome to Billion Careers(by Benjamimn Onyedika Udegbunam)
 
 Billion Careers is a Laravel project showcasing the integration of Bootstrap for the front-end and Laravel for the backend. The project demonstrates various authentication and security features provided by Laravel.
 
