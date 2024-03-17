@@ -9,7 +9,8 @@
 
 ## Welcome to Billion Careers
 
-Billion Careers is a Laravel project showcasing various aspects of web development, particularly focusing on security features such as authorization and authentication.
+Billion Careers is a Laravel project showcasing the integration of Bootstrap for the front-end and Laravel for the backend. The project demonstrates various authentication and security features provided by Laravel.
+
 
 ## Features
 
@@ -43,7 +44,7 @@ To ensure a welcoming and inclusive community, we enforce a [Code of Conduct](CO
 
 ## Security Vulnerabilities
 
-If you discover any security vulnerabilities within Billion Careers, please report them via email to [admin@billioncareers.com](mailto:admin@billioncareers.com). We take security seriously and will promptly address any reported vulnerabilities.
+If you discover any security vulnerabilities within Billion Careers, please report them via email to [udegbunamonyedikabenjamin@gmail.com](udegbunamonyedikabenjamin@gmail.com). We take security seriously and will promptly address any reported vulnerabilities.
 
 ## License
 
